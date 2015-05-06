@@ -1,0 +1,483 @@
+{
+  "Description": "Vorhabenliste der Stadt Jena",
+  "DataSource": {
+    "Autor": "",
+    "URL": "http://www.jena.de/de/stadt_verwaltung/b_rger-services/vorhabenliste/411894?max=50",
+    "BrokenXMLURL": "http://www.jena.de/de/stadt_verwaltung/b_rger-services/vorhabenliste/411894?template_id=5830&aid=&kid=&max=50&skip=0",
+    "License": "none - Assumed amtliches Werk"
+  },
+  "DataLiberator": {
+    "Name": "Offenes Jena",
+    "URL": "http://offenes-jena.de",
+    "License": "CC-BY-SA-4.0"
+  },
+  "Vorhaben": [
+    {
+      "Title": "Aktionsplan \"Inklusive Stadt\"",
+      "Description": "Der Freistaat hat den Thüringer Maßnahmeplan zur Umsetzung der UN-Konvention über die Rechte von Menschen mit Behinderungen vorgelegt, um den Zielen des Übereinkommens auch in Thüringen gerecht zu werden.",
+      "Links": [
+        {
+          "title": "Blog",
+          "url": "https://blog.jena.de/inklusivestadt/"
+        }
+      ]
+    },
+    {
+      "Title": "Bebauungsplan \"Inselplatz\"",
+      "Description": "Der Bebauungsplan „Inselplatz“ schafft die planungsrechtlichen Voraussetzungen für die Errichtung eines Campus für die Friedrich-Schiller-Universität. Zu den Inhalten fanden im Vorfeld intensive Gespräche mit der FSU, dem Kultusministerium und dem Bauministerium statt.",
+      "Links": [
+        {
+          "title": "BV - Abwägungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6186"
+        },
+        {
+          "title": "BV - Entwurfs- und Aufstellungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5889"
+        }
+      ]
+    },
+    {
+      "Title": "Änderung des Bebauungsplans \"Universitätsklinikum Jena-Lobeda\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für die Errichtung eines zusätzlichen Bettenhauses im Bereich des neuerrichteten Klinikums geschaffen.",
+      "Links": [
+        {
+          "title": "BV - Abwägungsbeschluss zur Änderung des Bebauungsplans",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6650"
+        },
+        {
+          "title": "BV - Satzungsbeschluss zur Änderung des Bebauungsplans",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6651"
+        }
+      ]
+    },
+    {
+      "Title": "Bebauungsplan \"Im oberen Kreuz\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für den Neubau von 16 Einfamilienhäusern am Ortsrand von Göschwitz geschaffen.",
+      "Links": [
+        {
+          "title": "BV - Aufstellungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5218"
+        },
+        {
+          "title": "BV - Vertrag zur Ausarbeitung der städtebaulichen Planung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5257"
+        }
+      ]
+    },
+    {
+      "Title": "Aktualisierung des Mietspiegels",
+      "Description": "Im Sommer 2012 wurde durch den Stadtrat beschlossen, für die Stadt Jena einen qualifizierten Mietspiegel zu erstellen.",
+      "Links": [
+        {
+          "title": "BV - Anerkennung qualifizierter Mietspiegel",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5909"
+        }
+      ]
+    },
+    {
+      "Title": "Bebauungsplan \"Schulstandort Jenzigweg\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für den Neubau einer mehrzügigen Gesamtschule im Ortsteil Wenigenjena geschaffen.",
+      "Links": [
+        {
+          "title": "BV - Billigungs- und Auslegungsbeschluss",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6600"
+        }
+      ]
+    },
+    {
+      "Title": "Bebauungsplan \"Engelplatz / Neugasse\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für eine Neubebauung des Areals südwestlich des Theaterhauses in der Innenstadt von Jena geschaffen.",
+      "Links": [
+        {
+          "title": "Planentwurf- und Auslegungsbeschluss 2005",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=3133"
+        }
+      ]
+    },
+    {
+      "Title": "Bebauungsplan \"Wohn- und Freizeitpark Unter dem Kippendorfer Weg\"",
+      "Description": "Mit dem Verfahren werden die planungsrechtlichen Voraussetzungen für eine Aufhebung des 1994 durch die seinerzeit noch selbständige Gemeinde Isserstedt zur Rechtskraft geführten, bislang jedoch nicht umgesetzten Bebauungsplans untersucht.",
+      "Links": [
+        {
+          "title": "BV - Auslegungsbeschluss zur Aufhebung des Bebauungsplans",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6203"
+        },
+        {
+          "title": "BV - Satzung zur Veränderungssperre im Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5815"
+        },
+        {
+          "title": "BV - Einleitungsbeschluss zur Aufhebung des Bebauungsplans",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5280"
+        }
+      ]
+    },
+    {
+      "Title": "Bebauungsplan \"Lobeda-Süd LS 3\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für die Ausweisung als Gewerbebauflächen geschaffen. Es handelt sich um den 2. Planentwurf.",
+      "Links": [
+        {
+          "title": "BV - Planentwurf- und Aufstellungsbeschluss 2008",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=1592"
+        }
+      ]
+    },
+    {
+      "Title": "Errichtung einer begehbaren Gartenbauskulptur (\"Folly\")",
+      "Description": "Seit dem Jahr 1992 verleiht die Stadt Jena den Botho-Graef-Preis in Erinnerung an den deutschen Archäologen und Kunsthistoriker und in Würdigung seines Engagements für die moderne Kunst.",
+      "Links": [
+        {
+          "title": "Botho-Graef-Kunstpreis der Stadt Jena 2015",
+          "url": "http://www.jenakultur.de/de/218117"
+        }
+      ]
+    },
+    {
+      "Title": "Entwicklung Bachstraßenviertel",
+      "Description": "Die Konzentration des Universitätsklinikums am Standort Lobeda erfordert planerische Überlegungen zur Umnutzung und Weiterentwicklung des Bereichs \"Bachstraße\". Neben der Stärkung der Kernstadt in ihrer Wohnfunktion ist auch die Schaffung einer Nutzungsvielfalt in Anlehnung an die Struktur der angrenzenden Viertel vorgesehen, um diese entsprechend zu stützen.",
+      "Links": []
+    },
+    {
+      "Title": "Erschließung des Wohnbaugebietes \"Hausbergviertel\"",
+      "Description": "Das Vorhaben beinhaltet die straßenbauliche und medientechnische Planung zur Erschließung des Wohnbaugebietes \"Hausbergviertel\" durch die Planstraßen A und B sowie weitere Gehwege und Treppenanlagen.",
+      "Links": [
+        {
+          "title": "BV - Abwägungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6583"
+        }
+      ]
+    },
+    {
+      "Title": "Grundhafte Erneuerung - Lutherstraße mit Riedstraße und Blumenstraße",
+      "Description": "Der grundhafte Straßenausbau wird durch den sehr mangelhaften Straßenzustand, die jährlich eintretenden umfangreichen Frostschäden im Frühjahr und den hohen Sanierungsbedarf der unterirdischen Versorgungswirtschaft erforderlich.",
+      "Links": [
+        {
+          "title": "BV - Grundhafte Erneuerung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6083"
+        },
+        {
+          "title": "Blog Baumaßnahme Lutherstraße - Akt. Infos zum Bauprojekt",
+          "url": "https://blog.jena.de/lutherstrasse/"
+        }
+      ]
+    },
+    {
+      "Title": "Bebauungsplan \"Wohngebiet beim Mönchenberge\"",
+      "Description": "Für das bisher als „ehemalige Studentenbaracken an der Naumburger Straße“ bezeichnete Gebiet in Zwätzen soll ein Bebauungsplan aufgestellt werden. Das Plangebiet wird südlich begrenzt vom Flurweg, östlich von der Naumburger Straße, westlich durch den Übergang zur offenen Landschaft und nördlich durch Nachbarbebauung in mehrgeschossiger Bauweise als auch in aufgelockerter Form.",
+      "Links": [
+        {
+          "title": "BV - Aufstellungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6105&voselect=5707"
+        }
+      ]
+    },
+    {
+      "Title": "Fortschreibung des Schulnetzplans der Stadt Jena 2016 - 2020",
+      "Description": "Jena ist geprägt von einer vielfältigen Schullandschaft, die den unterschiedlichsten bildungstechnischen Ansprüchen genügt. Die Gestaltung ist Aufgabe der Kommune und erfolgt unter Berücksichtigung der Bevölkerungsprognose sowie aktiver Beteiligung verschiedener Akteure.",
+      "Links": [
+        {
+          "title": "Fortschreibung des Schulnetzplans 2011 - 2015",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5841&search=1"
+        }
+      ]
+    },
+    {
+      "Title": "Grundhafter Ausbau - Wagnergasse und Johannisplatz",
+      "Description": "Bei der vorliegenden Baumaßnahme handelt es sich um die Neugestaltung und den grundhaften Ausbau der Wagnergasse und des Johannisplatzes in Zentrumsnähe. Die Straßen befinden sich in der Altstadt von Jena und sind geprägt durch eine geschlossene historische Bebauung. Dieses Vorhaben erlangte oberste Priorität, da die mit der Maßnahme verbundene Erneuerung des 1910 gebauten Abwasserkanals und die Erneuerung der Trinkwasserleitung aus dem Jahr 1960 aufgrund des Zustandes der Leitungen keinen Aufschub mehr dulden.",
+      "Links": [
+        {
+          "title": "BV - Frei- und Verkehrsanlagenplanung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6304"
+        }
+      ]
+    },
+    {
+      "Title": "Grundhafte Erneuerung der Straße \"Burgweg\"",
+      "Description": "Der \"Burgweg\" muss grundhaft erneuert, verbessert und an bestimmten Stellen erweitert werden. die Planung umfasst den notwendigen Ausbau mit dem Abschnitt vom „Camsdorfer Ufer“ bis zur sog. „Planstraße B“.",
+      "Links": [
+        {
+          "title": "BV - Grundhafte Erneuerung des Burgwegs",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5063"
+        }
+      ]
+    },
+    {
+      "Title": "Grundhafte Erneuerung der Susanne-Bohl-Straße",
+      "Description": "Die grundhafte Erneuerung der Susanne-Bohl-Straße erfolgt von der Jenaischen Straße Haus Nr. 20 bis zur Einmündung Struvestraße und Bereich Stadthof.",
+      "Links": [
+        {
+          "title": "BV - Grundhafte Erneuerung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5054"
+        }
+      ]
+    },
+    {
+      "Title": "Grundhafte Erneuerung der \"Löbstedter Straße\"",
+      "Description": "Der auszubauende Abschnitt der Löbstedter Straße verläuft annähernd in Süd-Nord-Richtung und befindet sich im Stadtteil Jena-Nord der Stadt Jena.",
+      "Links": [
+        {
+          "title": "BV - Grundhafte Erneuerung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=5951&voselect=5040"
+        }
+      ]
+    },
+    {
+      "Title": "Integriertes Stadtentwicklungkonzept Jena 2030",
+      "Description": "Die Stadt Jena hat 2001 vor dem Hintergrund eines gesamtstädtischen Wohnungsleerstandes von ca. 6 % ein Stadtentwicklungskonzept erarbeitet, das Strategien für die Gesamtentwicklung der Stadt und schwerpunktmäßig die Stärkung des Wohnungsmarktes der Stadt beinhaltete. In diesem Zusammenhang wurden die drei Stadtumbaugebiete „Innenstadt“, „Lobeda“ und „Winzerla“ festgelegt. Dieses Stadtentwicklungskonzept wurde im Januar 2002 vom Stadtrat beschlossen.",
+      "Links": [
+        {
+          "title": "BV Integriertes Stadtentwicklungskonzept (ISEK)",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6595&search=1"
+        }
+      ]
+    },
+    {
+      "Title": "Bebauungsplan - \"Wohngebiet Am Oelste\"",
+      "Description": "Im Flächennutzungsplan der Stadt Jena ist das für den Bebauungsplan vorgesehene Areal bislang als gemischte bzw. gewerbliche Baufläche dargestellt. Am 15.05.2013 hat der Stadtrat die „Arbeitsplatz- und Gewerbeflächenentwicklung Jena 2025“ als Grundlage für die weitere Gewerbeflächenentwicklung der Stadt Jena und die Fortschreibung des Flächennutzungsplanes bestätigt. Hierin wird darauf eingegangen, dass der Standort [mit der bisherigen Arbeitsbezeichnung Zwätzen-Nord Teil 2] nicht als Gewerbefläche geeignet ist.",
+      "Links": [
+        {
+          "title": "Aufstellungsbeschluss Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=5653&search=1"
+        },
+        {
+          "title": "Neues Wohnen in Jena-Zwätzen - Ideenwerkstatt",
+          "url": "http://www.ideenwerkstatt.jena.de/"
+        }
+      ]
+    },
+    {
+      "Title": "Grundhafter Ausbau der Ziegenhainer Straße, Teil Burgweg bis Ziegenhainer Straße 6",
+      "Description": "Aufgrund eines Hangrutsches ist die Straße seit 2009 gesperrt. Für den Ausbau des genannten Teilbereichs wurden verschiedene Varianten untersucht. Nach eingehender Prüfung und Abwägung wird der Straßenabschnitt als Einbahnstraße (3,80 m breit) mit einem Gehweg (1,50 m breit) gebaut.",
+      "Links": [
+        {
+          "title": "BV - Planung Ziegenhainer Straße",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=4561"
+        }
+      ]
+    },
+    {
+      "Title": "Integriertes Klimaschutzkonzept der Stadt Jena",
+      "Description": "Zur Umsetzung der im \"Leitbild Energie und Klimaschutz 2014 - 2020\" formulierten Ziele wird ein Integriertes Klimaschutzkonzept erarbeitet. Nach der IST-Analyse erfolgt eine Analyse der Potenziale. Der gesamte Prozess der Erarbeitung wird durch die Beteiligung zahlreicher Akteure und eine geeignete Öffentlichkeitsarbeit begleitet. Im Ergebnis werden ein Maßnahmenkatalog sowie ein Controlling- und Kommunikationskonzept vorliegen.",
+      "Links": [
+        {
+          "title": "BV - Leitbild Energie und Klimaschutz 2014 - 2020",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6138"
+        }
+      ]
+    },
+    {
+      "Title": "Grundhafter Ausbau einer Erschließungsstraße für das Wohngebiet \"Hausbergviertel\"",
+      "Description": "In Verlängerung der bereits vorhandenen Bestandsstraße \"Ulmer Straße\" sollen ca. 66 m Straße als Erschließungsstraße für einen Teil der Wohnbebauung im Bebauungsplan \"Hausbergviertel\" grundhaft ausgebaut werden.",
+      "Links": [
+        {
+          "title": "BV - Abwägungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6583"
+        }
+      ]
+    },
+    {
+      "Title": "Kunst am Johannisplatz",
+      "Description": "Im Zuge der Neugestaltung des Johannisplatzes wird ein offener Wettbewerb zur Errichtung eines Kunstwerkes durchgeführt. In einem von einer Fachjury begleiteten, zweistufigen Verfahren soll ein realisierbarer Entwurf ausgewählt werden.",
+      "Links": [
+        {
+          "title": "Ausschreibung",
+          "url": "http://www.jenakultur.de/de/438037"
+        }
+      ]
+    },
+    {
+      "Title": "Kindertagesstättenbedarfsplan 2014 - 2016",
+      "Description": "Entsprechend § 80 Abs. 1 des 8. Sozialgesetzbuches ist das Jugendamt im Rahmen der Gesamtverantwortung verpflichtet, den Bestand an Einrichtungen und Diensten festzustellen, den Bedarf unter Berücksichtigung der Wünsche, Bedürfnisse und Interessen der jungen Menschen und Personensorgeberechtigten für einen mittelfristigen Zeitraum zu ermitteln und die zur Befriedigung des Bedarfs notwendigen Vorhaben rechtzeitig und ausreichend zu planen. Die Stadt Jena ist gemäß § 17 des Thüringer Kindertageseinrichtungsgesetzes (ThürKitaG) verpflichtet, die erforderlichen Plätze in Kindertageseinrichtungen bereitzustellen.",
+      "Links": [
+        {
+          "title": "BV - Kindertagesstättenbedarfsplan 2013 / 2014",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5689"
+        }
+      ]
+    },
+    {
+      "Title": "Leitlinien Mobilität in Jena 2013",
+      "Description": "Die Stadt Jena entwickelt ihren Verkehrsentwicklungsplan seit dem Jahr 2002 bausteinartig weiter. Die Arbeit am Plan wurde und wird als stetige Aufgabe verstanden, um auch mit der Kommunalpolitik und den Bürgerinnen und Bürgern verkehrspolitisch \"im Gespräch\" zu bleiben.",
+      "Links": [
+        {
+          "title": "BV - Fortschreibung Verkehrsentwicklungsplan 2015",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6446&search=1"
+        },
+        {
+          "title": "Blog Mobilitätskonzept",
+          "url": "https://blog.jena.de/mobilitaet/"
+        }
+      ]
+    },
+    {
+      "Title": "Kinder- und Jugendförderplan 2016 - 2019",
+      "Description": "Der Kinder- und Jugendförderplan 2016 bis 2019 beschreibt die Ziele der Stadt Jena im Bereich der Jugendarbeit und Jugendsozialarbeit, welche Pflichtaufgaben der Kommune sind. Übergreifende Ziele werden durch das Leitbild „Bildung gemeinsam verantworten“ beschrieben.",
+      "Links": [
+        {
+          "title": "BV - Kinder- und Jugendförderplan 2012 - 2015",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=4633"
+        },
+        {
+          "title": "BV - Bildung gemeinsam verantworten - ein Leitbild für Jena",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=3976"
+        }
+      ]
+    },
+    {
+      "Title": "Konservierung und Restaurierung des Burschenschaftsdenkmals",
+      "Description": "Durch eine massive Farbattacke im Juni 2011 wurde das Burschenschaftsdenkmal schwer beschädigt und wird nun gemäß dem vorliegenden Sanierungskonzept konserviert und restauriert. Im Anschluss daran wird es an einem geschützten Ort in der Innenstadt aufgestellt.",
+      "Links": [
+        {
+          "title": "Spendenaufruf",
+          "url": "http://www.jena.de/de/aktuelles/burschenschaftsdenkmal_wird_restauriert/437340?template_id=4205"
+        },
+        {
+          "title": "Zeitungsartikel OTZ vom 06.01.2015",
+          "url": "http://jena.otz.de/web/lokal/leben/detail/-/specific/Generalueberholung-fuer-Burschenschaftsdenkmal-in-Jena-839803163"
+        }
+      ]
+    },
+    {
+      "Title": "Neugestaltung und Neubau von kommunalen Spielplätzen",
+      "Description": "In den „Leitlinien für ein familienfreundliches Jena“, welche am 08.12.2011 vom Jenaer Stadtrat beschlossen wurden, heißt es:",
+      "Links": [
+        {
+          "title": "BV - Fortschreibung Netzplan Kommunale Spielplätze",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5299"
+        }
+      ]
+    },
+    {
+      "Title": "Planverfahren zur Änderung des Bebauungsplans \"Hausbergviertel\"",
+      "Description": "Am 12.06.1991 wurden durch Beschluss der Stadtverordnetenversammlung die weitere Gültigkeit mehrerer städtebaulicher Pläne hinsichtlich der nach § 9 BauGB verbindlichen Planinhalte bestätigt. Dazu gehörte auch der Bebauungsplan der Stadt Jena „Hausbergviertel“ vom 11.07.1927 mit Fluchtlinien-Änderung vom 24.04.1939, genehmigt durch das Thüringer Ministerium für Inneres vom 10.08.1939. Auf der Grundlage dieses Bebauungsplanes erfolgte die Entwicklung des Hausbergviertels in den zurückliegenden 80 Jahren.",
+      "Links": [
+        {
+          "title": "Abwägungsbeschluss 2. Entwurf Änderung Bplan Hausbergviertel",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6583&search=1"
+        }
+      ]
+    },
+    {
+      "Title": "Neugestaltung des Bereichs der \"Landfeste\"",
+      "Description": "Im Sanierungsgebiet \"Modellvorhaben der Stadterneuerung Jena, Teilgebiet VI - Ergänzungsgebiet Saaleufer soll der Bereich \"Landfeste\" neugestaltet werden. Geplant ist eine funktionale und gestalterische Aufwertung mit Aufenthalts- und Spielbereich sowie der Ausbau des Radweges.",
+      "Links": [
+        {
+          "title": "Beschlussvorlage",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=2699&search=1"
+        },
+        {
+          "title": "Sanierungssatzung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=2633&search=1"
+        }
+      ]
+    },
+    {
+      "Title": "Planverfahren zur Herstellung von Baurecht für die Erweiterung der Landesärztekammer",
+      "Description": "Die Landesärztekammer Thüringen ist eine Körperschaft des öffentlichen Rechts und hat ihren Sitz seit 1990 in Jena und seit 1997 in Jena-Maua. Sie betreut alle im Freistaat tätigen Ärzte (ca. 11000 Ärzte) sowie die Ausbildung zu Medizinischen Fachangestellten.",
+      "Links": [
+        {
+          "title": "Aufstellungsbeschluss Bplan Erweiterung Landesärztekammer",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=5203&search=1"
+        }
+      ]
+    },
+    {
+      "Title": "Stadtteilentwicklungskonzept Ost",
+      "Description": "Das Jenaer Stadtgebiet ist in sechs Planungsräume (Alt- und Neulobeda, Ost, Nord, West / Zentrum und Ortschaften) gegliedert, die wiederum in statistische Bezirke aufgeteilt sind.",
+      "Links": [
+        {
+          "title": "Berichtsvorlage Stadtteilentw.-konzepte Ost, West/Zentrum",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5942&search=1"
+        }
+      ]
+    },
+    {
+      "Title": "Planverfahren zur Aufstellung des Bebauungsplans \"Maua West\"",
+      "Description": "Gemäß dem bestätigten Konzept zur Arbeits- und Gewerbeflächenentwicklung Jena 2025 vom 15. Mai 2013 ist die Neuausweisung von ca. 7 Hektar gewerblicher Bauflächen am Stand \"Maua West\" geplant. Damit ist dieser Standort ein wichtiger Entwicklungsbereich im nachgefragten Südraum (Autobahnnähe).",
+      "Links": [
+        {
+          "title": "Aufstellungsbeschluss Bebauungsplan B-Ma 05",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6382&search=1"
+        }
+      ]
+    },
+    {
+      "Title": "Untersuchung möglicher Lärmminderungsmaßnahmen in den Ortsteilen Wöllnitz und Lobeda-Altstadt",
+      "Description": "Entlang der Stadtrodaer Straße ist für die Ortsteile Wöllnitz und Lobeda-Altstadt zu untersuchen sowie detailliert zu bewerten, welche Möglichkeiten zur Minderung des Straßenlärms bestehen. Die Ortsteilräte sind in diese Untersuchung einzubeziehen.",
+      "Links": [
+        {
+          "title": "BV - Lärmschutzwände in Wöllnitz und Lobeda-Altstadt",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6342"
+        },
+        {
+          "title": "BV - Lärmaktionsplan der Stadt Jena - Stufe 2",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6037"
+        }
+      ]
+    },
+    {
+      "Title": "Städtebaulicher Rahmenplan \"Rähmen\"",
+      "Description": "Mit dem Sanierungsgebiet \"Modellvorhaben der Stadterneuerung Jena, Teilgebiet VI - Ergänzungsgebiet Saaleufer\" hat sich die Stadt zur Aufwertung und Weiterentwicklung des Gebietes Am Anger / Am Rähmen bekannt. In Folge einer Bestandsaufnahme wurde der städtebauliche Rahmenplan \"Rähmen\" für dieses Gebiet erarbeitet. Dieser soll zukünftig als Planungsinstrument und Selbstbindungsplan der Stadt durch den Stadtrat bestätigt werden.",
+      "Links": [
+        {
+          "title": "Sanierungssatzung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=2633"
+        }
+      ]
+    },
+    {
+      "Title": "Platz an der Griesbrücke und Wenigenjenaer Ufer",
+      "Description": "Mit der Umgestaltung des Bereiches soll eine funktionale und gestalterische Aufwertung des Gebietes entsprechend seiner Bedeutung im Rahmen des gesamtstädtischen Grünsystems und als stadtnaher Erholungsraum für Jena-Ost erreicht werden.",
+      "Links": [
+        {
+          "title": "Beschlussvorlage Rahmenplan Jena Ost - Gries",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//to0050.php?__ktonr=20658"
+        }
+      ]
+    },
+    {
+      "Title": "Vorhabenbezogener Bebauungsplan \"Hotel am Planetarium\"",
+      "Description": "Im Jahr 2014 stellte die Ernst-Abbe-Stiftung bei der Stadt Jena den Antrag auf Einleitung eines vorhabenbezogenen Bebauungsplans zur Errichtung eines Hotelgebäudes westlich des Planetariums.",
+      "Links": [
+        {
+          "title": "BV - Einleitungsbeschluss zum VE-Plan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6429"
+        }
+      ]
+    },
+    {
+      "Title": "Stadtteilentwicklungskonzept West / Zentrum",
+      "Description": "Das Jenaer Stadtgebiet ist in sechs Planungsräume (Alt- und Neulobeda, Ost, Nord, West / Zentrum und Ortschaften) gegliedert, die wiederum in statistische Bezirke aufgeteilt sind.",
+      "Links": [
+        {
+          "title": "Berichtsvorlage Stadtteilentw.-konzepte Ost, West/Zentrum",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5942&search=1"
+        }
+      ]
+    },
+    {
+      "Title": "Vorhabenbezogener Bebauungsplan \"Wohnen am Johannisberg\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für die Errichtung dreier Mehrfamilienhäuser am Ortsrand von Lobeda-Altstadt geschaffen.",
+      "Links": [
+        {
+          "title": "BV - Einleitungs- und Aufstellungsbeschluss",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5821"
+        }
+      ]
+    },
+    {
+      "Title": "Verlängerung der Straßenbahn Himmelreich-Zwätzen",
+      "Description": "Im Januar 2014 hat der Stadtrat den Beschluss gefasst, die Straßenbahn im Norden Jenas bis zum Wohngebiet \"Himmelreich\" zu verlängern.",
+      "Links": [
+        {
+          "title": "BV - Verlängerung Straßenbahn HImmelreich",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6263&search=1"
+        },
+        {
+          "title": "Blog Bauprojekt Straßenbahn Himmelreich",
+          "url": "https://blog.jena.de/straba/"
+        }
+      ]
+    }
+  ]
+}

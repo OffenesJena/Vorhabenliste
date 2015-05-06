@@ -1,0 +1,9 @@
+[submodule "libs/CSQuery"]
+	path = libs/CSQuery
+	url = git@github.com:ahzf/CsQuery.git
+[submodule "libs/BouncyCastle"]
+	path = libs/BouncyCastle
+	url = git@github.com:Vanaheimr/BouncyCastle.git
+[submodule "libs/Illias"]
+	path = libs/Illias
+	url = git@github.com:Vanaheimr/Illias.git
