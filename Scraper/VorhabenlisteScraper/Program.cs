@@ -28,6 +28,8 @@ using System.Text.RegularExpressions;
 using CsQuery;
 using Newtonsoft.Json.Linq;
 
+using org.GraphDefined.Vanaheimr.Illias;
+
 #endregion
 
 namespace de.offenes_jena.Vorhabenliste.Scraper
@@ -38,10 +40,42 @@ namespace de.offenes_jena.Vorhabenliste.Scraper
 
         #region Data
 
-        private static readonly String VorhabenlisteURL           = "http://www.jena.de/de/stadt_verwaltung/b_rger-services/vorhabenliste/411894?max=50";
-        private static readonly String VorhabenlisteBrokenXMLURL  = "http://www.jena.de/de/stadt_verwaltung/b_rger-services/vorhabenliste/411894?template_id=5830&aid=&kid=&max=50&skip=0";
+        private static readonly String VorhabenlisteURL                     = "http://www.jena.de/de/stadt_verwaltung/b_rger-services/vorhabenliste/411894?max=50";
+        private static readonly String VorhabenlisteBrokenXMLURL            = "http://www.jena.de/de/stadt_verwaltung/b_rger-services/vorhabenliste/411894?template_id=5830&aid=&kid=&max=50&skip=0";
+
+        public const String LetzterBeschlussZumVorhaben                     = "Letzter Beschluss zum Vorhaben";
+        public const String LetzterPolitischerBeschlussZumVorhaben          = "Letzter politischer Beschluss zum Vorhaben";
+        public const String AktuellerBearbeitungsstand                      = "Aktueller Bearbeitungsstand";
+        public const String GeplanterZeitpunktDerUmsetzungNächsteSchritte   = "Geplanter Zeitpunkt der Umsetzung / nächste Schritte";
+        public const String KostenSoweitBezifferbar                         = "Kosten soweit bezifferbar";
+        public const String BetroffenesGebiet                               = "Betroffenes Gebiet";
+        public const String SchwerpunktmäßigBetroffeneThemen                = "Schwerpunktmäßig betroffene Themen";
+        public const String IstBürgerbeteiligungVorgesehen                  = "Ist Bürgerbeteiligung vorgesehen";
 
         #endregion
+
+        #region GatherInformation(InfoHash, ref Information, ref i, Thema)
+
+        private static void GatherInformation(Dictionary<String, List<String>>  InfoHash,
+                                              ref Tuple<String, String>[]       Information,
+                                              ref Int32                         i,
+                                              String                            Thema)
+        {
+
+            var List = InfoHash.AddAndReturnValue(Thema, new List<String>());
+            Information[i] = null;
+
+            while (i+1 < Information.Length && Information[i+1].Item1 != "H3")
+            {
+                List.Add(Information[i+1].Item2);
+                Information[i+1] = null;
+                i++;
+            }
+
+        }
+
+        #endregion
+
 
         public static void Main(String[] Arguments)
         {
@@ -49,10 +83,10 @@ namespace de.offenes_jena.Vorhabenliste.Scraper
             #region Download Vorhabenliste
 
             var HTTPClient  = new HttpClient();
-            var regex       = new Regex(@"http://www.jena.de/de/([\d]+)");
+            var RegExpr     = new Regex(@"http://www.jena.de/de/([\d]+)");
             var URLSet      = new HashSet<String>();
 
-            foreach (Match match in regex.Matches(HTTPClient.GetStringAsync(VorhabenlisteBrokenXMLURL).Result))
+            foreach (Match match in RegExpr.Matches(HTTPClient.GetStringAsync(VorhabenlisteBrokenXMLURL).Result))
                 URLSet.Add(match.Groups[1].Value);
 
             #endregion
@@ -63,23 +97,46 @@ namespace de.offenes_jena.Vorhabenliste.Scraper
 
             var JSON = new JObject(new JProperty("Description",                 "Vorhabenliste der Stadt Jena"),
                                    new JProperty("DataSource", new JObject(
-                                       new JProperty("Autor",                       ""),
+                                       new JProperty("Autor", new JObject(
+                                           new JProperty("Name",                    "Stadt Jena - Team Städtebau & Planungsrecht"),
+                                           new JProperty("Ansprechpartner",         "Annette Schwarze-Engel"),
+                                           new JProperty("Strasse",                 "Am Anger"),
+                                           new JProperty("Hausnummer",              "26"),
+                                           new JProperty("PLZ",                     "07743"),
+                                           new JProperty("Ort",                     "Jena"),
+                                           new JProperty("Telefon",                 "+49 3641 49-5002"),
+                                           new JProperty("E-Mail",                  "buergerbeteiligung@jena.de")
+                                       )),
                                        new JProperty("URL",                         VorhabenlisteURL),
                                        new JProperty("BrokenXMLURL",                VorhabenlisteBrokenXMLURL),
-                                       new JProperty("License",                     "none - Assumed amtliches Werk")
+                                       new JProperty("License",                     "Keine, da amtliches Werk")
                                    )),
                                    new JProperty("DataLiberator", new JObject(
-                                       new JProperty("Name",                        "Offenes Jena"),
+                                       new JProperty("Name",                        "Achim Friedland"),
+                                       new JProperty("Organization",                "Offenes Jena"),
                                        new JProperty("URL",                         "http://offenes-jena.de"),
-                                       new JProperty("License",                     "CC-BY-SA-4.0")
+                                       new JProperty("E-Mail",                      "mail@offenes-jena.de"),
+                                       new JProperty("GPG-Key", new JObject(
+                                           new JProperty("@Id",                         "0xB1EA 6EEA A89A 2896"),
+                                           new JProperty("CreationDate",                "2014-08-16"),
+                                           new JProperty("Fingerprint",                 "AE0D 5C5C 4EB5 C3F0 683E 2173 B1EA 6EEA A89A 2896"),
+                                           new JProperty("URI",                         "http://offenes-jena.de/local/data/Keys/mail@offenes-jena.key")
+                                       )),
+                                       new JProperty("License",                     "CC-BY-SA-4.0"),
+                                       new JProperty("Scraping", new JObject(
+                                           new JProperty("Timestamp",               DateTime.Now.ToIso8601()),
+                                           new JProperty("SourceCodeURI",           "https://github.com/OffenesJena/Vorhabenliste"),
+                                           new JProperty("License",                 "Apache 2.0")
+                                       ))
                                    )),
                                    new JProperty("Vorhaben",                    VorhabenArray));
 
             #endregion
 
-            #region Download and analyse every Vorhaben
-
             Parallel.ForEach(URLSet, URLPart => {
+            //URLSet.ForEach(URLPart => {
+
+                #region Download and analyse every Vorhaben
 
                 Console.WriteLine("Processing... " + "http://www.jena.de/de/" + URLPart + " in thread " + Thread.CurrentThread.ManagedThreadId);
 
@@ -88,11 +145,7 @@ namespace de.offenes_jena.Vorhabenliste.Scraper
 
                 var Einleitung   = VorhabenHTML["#content_neu_detail"].Children().ToArray();
                 var Title        = Einleitung[0].InnerText.Trim();
-                var Description  = Einleitung[1].InnerText.Trim();
-
-                var Information  = VorhabenHTML[".tab_panel_helper"].Children().
-                                       Select(v => new Tuple<String, String>(v.NodeName, v.InnerText.Trim())).
-                                       ToList();
+                var Description  = Einleitung.Skip(1).Select(item => item.InnerText.Trim()).AggregateWith(Environment.NewLine);
 
                 var Links        = VorhabenHTML[".link_box_left"].Children().
                                        Select(htmlnode => new JObject(
@@ -100,18 +153,93 @@ namespace de.offenes_jena.Vorhabenliste.Scraper
                                                               new JProperty("url",   htmlnode.FirstChild.Attributes.Where(a => a.Key == "href" ).Select(x => x.Value).First().Trim())
                                                           ));
 
+                var Information  = VorhabenHTML[".tab_panel_helper"].Children().
+                                       Select(v => new Tuple<String, String>(v.NodeName, v.InnerText.Trim())).
+                                       ToArray();
+
+                var InfoHash     = new Dictionary<String, List<String>>();
+
+                for (var i = 0; i<Information.Length; i++)
+                {
+
+                    if (Information[i].Item1 == "H3")
+                    {
+
+                        switch (Information[i].Item2)
+                        {
+
+                            case LetzterBeschlussZumVorhaben:
+                            case LetzterPolitischerBeschlussZumVorhaben:
+                                GatherInformation(InfoHash, ref Information, ref i, LetzterBeschlussZumVorhaben);
+                                break;
+
+                            case AktuellerBearbeitungsstand:
+                                GatherInformation(InfoHash, ref Information, ref i, AktuellerBearbeitungsstand);
+                                break;
+
+                            case GeplanterZeitpunktDerUmsetzungNächsteSchritte:
+                                GatherInformation(InfoHash, ref Information, ref i, GeplanterZeitpunktDerUmsetzungNächsteSchritte);
+                                break;
+
+                            case KostenSoweitBezifferbar:
+                                GatherInformation(InfoHash, ref Information, ref i, KostenSoweitBezifferbar);
+                                break;
+
+                            case BetroffenesGebiet:
+                                GatherInformation(InfoHash, ref Information, ref i, BetroffenesGebiet);
+                                break;
+
+                            case SchwerpunktmäßigBetroffeneThemen:
+                                GatherInformation(InfoHash, ref Information, ref i, SchwerpunktmäßigBetroffeneThemen);
+                                break;
+
+                            case IstBürgerbeteiligungVorgesehen:
+                                GatherInformation(InfoHash, ref Information, ref i, IstBürgerbeteiligungVorgesehen);
+                                break;
+
+                            case "-":
+                                Information[i] = null;
+                                break;
+
+                            default:
+                                break;
+
+                        }
+
+                    }
+
+                    else
+                        GatherInformation(InfoHash, ref Information, ref i, "Einleitung");
+
+                }
+
+            #endregion
+
+                #region Check and add to JSON
+
+                var RemainingInformation = Information.Where(item => item != null).ToArray();
+                if (RemainingInformation.Any())
+                {
+                    // Should not happen!
+                }
+
                 lock (VorhabenArray)
                 {
-                    VorhabenArray.Add(new JObject(new JProperty("Title",        Title),
+
+                    VorhabenArray.Add(new JObject(new JProperty("@Id",          URLPart),
+                                                  new JProperty("Title",        Title),
                                                   new JProperty("Description",  Description),
+
+                                                  InfoHash.Select(item => new JProperty(item.Key, new JArray(item.Value.Where(str => str.IsNotNullOrEmpty())))),
 
                                                   new JProperty("Links",        new JArray(Links))
                                                  ));
+
                 }
 
-            });
+                #endregion
 
-            #endregion
+            });
 
             File.WriteAllText("VorhabenJena.json", JSON.ToString());
 

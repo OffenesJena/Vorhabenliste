@@ -1,58 +1,149 @@
 {
   "Description": "Vorhabenliste der Stadt Jena",
   "DataSource": {
-    "Autor": "",
+    "Autor": {
+      "Name": "Stadt Jena - Team Städtebau & Planungsrecht",
+      "Ansprechpartner": "Annette Schwarze-Engel",
+      "Strasse": "Am Anger",
+      "Hausnummer": "26",
+      "PLZ": "07743",
+      "Ort": "Jena",
+      "Telefon": "+49 3641 49-5002",
+      "E-Mail": "buergerbeteiligung@jena.de"
+    },
     "URL": "http://www.jena.de/de/stadt_verwaltung/b_rger-services/vorhabenliste/411894?max=50",
     "BrokenXMLURL": "http://www.jena.de/de/stadt_verwaltung/b_rger-services/vorhabenliste/411894?template_id=5830&aid=&kid=&max=50&skip=0",
-    "License": "none - Assumed amtliches Werk"
+    "License": "Keine, da amtliches Werk"
   },
   "DataLiberator": {
-    "Name": "Offenes Jena",
+    "Name": "Achim Friedland",
+    "Organization": "Offenes Jena",
     "URL": "http://offenes-jena.de",
-    "License": "CC-BY-SA-4.0"
+    "E-Mail": "mail@offenes-jena.de",
+    "GPG-Key": {
+      "@Id": "0xB1EA 6EEA A89A 2896",
+      "CreationDate": "2014-08-16",
+      "Fingerprint": "AE0D 5C5C 4EB5 C3F0 683E 2173 B1EA 6EEA A89A 2896",
+      "URI": "http://offenes-jena.de/local/data/Keys/mail@offenes-jena.key"
+    },
+    "License": "CC-BY-SA-4.0",
+    "Scraping": {
+      "Timestamp": "2015-05-08T01:38:22.875Z",
+      "SourceCodeURI": "https://github.com/OffenesJena/Vorhabenliste",
+      "License": "Apache 2.0"
+    }
   },
   "Vorhaben": [
     {
+      "@Id": "439444",
       "Title": "Aktionsplan \"Inklusive Stadt\"",
-      "Description": "Der Freistaat hat den Thüringer Maßnahmeplan zur Umsetzung der UN-Konvention über die Rechte von Menschen mit Behinderungen vorgelegt, um den Zielen des Übereinkommens auch in Thüringen gerecht zu werden.",
+      "Description": "Der Freistaat hat den Thüringer Maßnahmeplan zur Umsetzung der UN-Konvention über die Rechte von Menschen mit Behinderungen vorgelegt, um den Zielen des Übereinkommens auch in Thüringen gerecht zu werden.\r\nAuf dieser Grundlage sollen unter Einbeziehung der Menschen mit Behinderungen und ihrer Interessenvertreter sowie der Leistungserbringer kommunale Teilhabepläne erarbeitet werden.\r\nZiel ist es, einen gleichberechtigten Zugang zu allgemeinen, gemeindenahen Dienstleistungen und Einrichtungen zur Unterstützung des Lebens in der Gemeinschaft zu schaffen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Grundlage des Handelns bildet der Thüringer Maßnahmeplan zur Umsetzung der UN-Behindertenrechtskonvention"
+      ],
       "Links": [
         {
           "title": "Blog",
           "url": "https://blog.jena.de/inklusivestadt/"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Bis Ende März 2015 läuft die Arbeitsgruppenphase."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Im Herbst 2015 soll der Aktionsplan dem Stadtrat zur Beschlussfassung vorgelegt werden."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Gesamtstädtisch"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Soziales / Senioren\r\nKinder / Jugend / Familie"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im gesamten Verfahren ist Bürgerbetetiligung (z.B. durch die Mitarbeit in den Arbeitsgruppen) ausdrücklich erwünscht, denn dies ist die Voraussetzung für einen Aktionsplan von und für behinderte Menschen."
       ]
     },
     {
-      "Title": "Bebauungsplan \"Inselplatz\"",
-      "Description": "Der Bebauungsplan „Inselplatz“ schafft die planungsrechtlichen Voraussetzungen für die Errichtung eines Campus für die Friedrich-Schiller-Universität. Zu den Inhalten fanden im Vorfeld intensive Gespräche mit der FSU, dem Kultusministerium und dem Bauministerium statt.",
+      "@Id": "451318",
+      "Title": "Aktualisierung des Mietspiegels",
+      "Description": "Im Sommer 2012 wurde durch den Stadtrat beschlossen, für die Stadt Jena einen qualifizierten Mietspiegel zu erstellen.\r\nDer Mietspiegel gibt Auskunft über die in Jena zu diesem Zeitpunkt üblicherweise gezahlten Mieten für verschiedene Wohnungstypen vergleichbarer Art, Größe, Ausstattung, Beschaffenheit und Lage, die sogenannte „ortsübliche Vergleichsmiete“.",
+      "Einleitung": [
+        "Er muss nach anerkannten wissenschaftlichen Grundsätzen erstellt sein.\r\nEr muss von der Gemeinde oder von Interessenvertretern der Vermieter und Mieter anerkannt worden sein.",
+        "Der Mietspiegel wird regelmäßig fortgeschrieben."
+      ],
       "Links": [
         {
-          "title": "BV - Abwägungsbeschluss zum Bebauungsplan",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6186"
-        },
-        {
-          "title": "BV - Entwurfs- und Aufstellungsbeschluss zum Bebauungsplan",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5889"
+          "title": "BV - Anerkennung qualifizierter Mietspiegel",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5909"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 13/2294-BV - Beschluss des Stadrates vom 09.10.2013 \"Anerkennung qualifizierter Mietspiegel\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Derzeit läuft die Datenerhebung durch das beauftragte externe Unternehmen."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Nach Abschluss der Datenerhebung erfolgt Anfang Juni die Präsentation der ersten Auswertungsergebnisse."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 44.000 € für die externe Bearbeitung"
+      ],
+      "Betroffenes Gebiet": [
+        "Gesamtstädtisch"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Nein.",
+        "Der qualifizierte Mietspiegel beruht auf statistschen Daten. Die Beteiligung von Vermietern und dem Mietverein erfolgt entsprechend dem gesetzlichen Rahmen."
       ]
     },
     {
-      "Title": "Änderung des Bebauungsplans \"Universitätsklinikum Jena-Lobeda\"",
-      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für die Errichtung eines zusätzlichen Bettenhauses im Bereich des neuerrichteten Klinikums geschaffen.",
+      "@Id": "451330",
+      "Title": "Bebauungsplan \"Engelplatz / Neugasse\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für eine Neubebauung des Areals südwestlich des Theaterhauses in der Innenstadt von Jena geschaffen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 05/10/15/0309 - Beschluss des Stadrates vom 05.10.2005 \"Planentwurfs- und Auslegungsbeschluss B-Plan Engelplatz / Neugasse\""
+      ],
       "Links": [
         {
-          "title": "BV - Abwägungsbeschluss zur Änderung des Bebauungsplans",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6650"
-        },
-        {
-          "title": "BV - Satzungsbeschluss zur Änderung des Bebauungsplans",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6651"
+          "title": "Planentwurf- und Auslegungsbeschluss 2005",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=3133"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Planunterlagen zum 2. Entwurf haben Ende 2005 öffentlich ausgelegen. Derzeit wird der 3. Planentwurf erarbeitet."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Beteiligung der Betroffenen und der Träger öffentlicher Belange sowie erneuter Beschluss zur Offenlage"
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nKultur / Freizeit / Sport\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Zuge des Planverfahrens gem. BauGB"
       ]
     },
     {
+      "@Id": "457650",
       "Title": "Bebauungsplan \"Im oberen Kreuz\"",
       "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für den Neubau von 16 Einfamilienhäusern am Ortsrand von Göschwitz geschaffen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 12/1737-BV - Beschluss des Stadrates vom 14.11.2012 \"Aufstellungsbeschluss zum Bebauungsplan B-Gö 08 \"Im oberen Kreuz\" in Göschwitz\"\r\nBeschlussvorlage 12/1764-BV - Beschluss des Stadtrates vom 14.11.2012 \"Vertrag über die Ausarbeitung der städtebaulichen Planung für die Wohnbauflächen \"Im oberen Kreuz\" im Ortsteil Göschwitz\""
+      ],
       "Links": [
         {
           "title": "BV - Aufstellungsbeschluss zum Bebauungsplan",
@@ -62,41 +153,142 @@
           "title": "BV - Vertrag zur Ausarbeitung der städtebaulichen Planung",
           "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5257"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Der Vorhabenträger lässt zur Zeit den Vorentwurf zum Bebauungsplan erstellen."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Mit der frühzeitigen Beteiligung der Betroffenen und der Träger öffentlicher Belange ist im II.Quartal 2015 zu rechnen."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Göschwitz"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Zuge des Planverfahrens gem. BauGB"
       ]
     },
     {
-      "Title": "Aktualisierung des Mietspiegels",
-      "Description": "Im Sommer 2012 wurde durch den Stadtrat beschlossen, für die Stadt Jena einen qualifizierten Mietspiegel zu erstellen.",
+      "@Id": "457633",
+      "Title": "Änderung des Bebauungsplans \"Universitätsklinikum Jena-Lobeda\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für die Errichtung eines zusätzlichen Bettenhauses im Bereich des neuerrichteten Klinikums geschaffen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 15/0293-BV - Beschluss des Stadrates vom 25.03.2015 \"Abwägungsbeschluss zum Entwurf der ersten einfachen Änderung des Bebauungsplanes \"Universitätsklinikum Jena-Lobeda\", B-LO 05.1\"\r\nBeschlussvorlage 15/0294-BV - Beschluss des Stadtrates vom 25.03.2015 \"Satzungsbeschluss zur ersten einfachen Änderung des Bebauungsplanes mit integriertem Grünordnungsplan \"Universitätsklinikum Jena-Lobeda\", B-LO 05.1\""
+      ],
       "Links": [
         {
-          "title": "BV - Anerkennung qualifizierter Mietspiegel",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5909"
+          "title": "BV - Abwägungsbeschluss zur Änderung des Bebauungsplans",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6650"
+        },
+        {
+          "title": "BV - Satzungsbeschluss zur Änderung des Bebauungsplans",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6651"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Der Bebauungsplan hat öffentlich ausgelegen."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Mit einem Bauantrag ist im II.Quartal 2015 zu rechnen."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Neu-Lobeda"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nSoziales / Senioren\r\nStadtentwicklung / Stadtplanung\r\nWirtschaft / Arbeit"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Zuge des Planverfahrens gem. BauGB"
       ]
     },
     {
-      "Title": "Bebauungsplan \"Schulstandort Jenzigweg\"",
-      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für den Neubau einer mehrzügigen Gesamtschule im Ortsteil Wenigenjena geschaffen.",
+      "@Id": "457661",
+      "Title": "Bebauungsplan \"Inselplatz\"",
+      "Description": "Der Bebauungsplan „Inselplatz“ schafft die planungsrechtlichen Voraussetzungen für die Errichtung eines Campus für die Friedrich-Schiller-Universität. Zu den Inhalten fanden im Vorfeld intensive Gespräche mit der FSU, dem Kultusministerium und dem Bauministerium statt.\r\nDie Stellungnahmen dieser Beteiligten weisen insofern bereits jetzt einen hohen Umsetzungsbezug aus. Entsprechend der Abwägungsvorschläge sollen insbesondere Klarstellungen, Ergänzungen und Anpassungen in den textlichen Festsetzungen und der Begründung erfolgen.",
+      "Einleitung": [],
       "Links": [
         {
-          "title": "BV - Billigungs- und Auslegungsbeschluss",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6600"
+          "title": "BV - Abwägungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6186"
+        },
+        {
+          "title": "BV - Entwurfs- und Aufstellungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5889"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/2492-BV - Beschluss des Stadrates vom 14.05.2014 \"Abwägungsbschluss zum Bebauungsplan B.J 03 \"Inselplatz\"\r\nBeschlussvorlage 13/2273-BV - Beschluss des Stadrates vom 14.05.2014 \"Bebauungsplan B-J 03 \"Inselplatz\": Entwurfs- und Auslegungsbeschluss\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Durch den Freistaat Thüringen und die Friedrich-Schiller-Universität werden derzeit wettbewerbliche Verfahren vorbereitet, die auf dem Bebauungsplan als Rahmen aufsetzen sollen."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Nach dem wettbewerblichen Verfahren durch das Land kann es ggfs. zu einer Anpassung und erneuten Offenlage des Bebauungsplans kommen. Erst danach folgt der Satzungsbeschluss."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 100.000 € (überwiegend abgegolten)"
+      ],
+      "Betroffenes Gebiet": [
+        "Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nBildung / Wissenschaft\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Ist bereits erfolgt."
       ]
     },
     {
-      "Title": "Bebauungsplan \"Engelplatz / Neugasse\"",
-      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für eine Neubebauung des Areals südwestlich des Theaterhauses in der Innenstadt von Jena geschaffen.",
+      "@Id": "457655",
+      "Title": "Bebauungsplan \"Lobeda-Süd LS 3\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für die Ausweisung als Gewerbebauflächen geschaffen. Es handelt sich um den 2. Planentwurf.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 08/1036-BV - Beschluss des Stadrates vom 19.03.2008 \"Planentwurfs- und Planauslegungsbeschluss für den Entwurf zur Änderung des Bebauungsplanes \"Lobeda-Süd LS 3\""
+      ],
       "Links": [
         {
-          "title": "Planentwurf- und Auslegungsbeschluss 2005",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=3133"
+          "title": "BV - Planentwurf- und Aufstellungsbeschluss 2008",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=1592"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Zur Zeit wird der 2. Planentwurf erarbeitet."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Das Gesamtprojekt wird in mehreren Teilabschnitten umgesetzt, die Öffentlichkeitsbeteiligung erfolgt zeitnah."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Lobeda-Süd"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nStadtentwicklung / Stadtplanung\r\nWirtschaft / Arbeit"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Zuge des Planverfahrens gem. BauGB"
       ]
     },
     {
+      "@Id": "457601",
       "Title": "Bebauungsplan \"Wohn- und Freizeitpark Unter dem Kippendorfer Weg\"",
       "Description": "Mit dem Verfahren werden die planungsrechtlichen Voraussetzungen für eine Aufhebung des 1994 durch die seinerzeit noch selbständige Gemeinde Isserstedt zur Rechtskraft geführten, bislang jedoch nicht umgesetzten Bebauungsplans untersucht.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/2506-BV - Beschluss des Stadrates vom 15.05.2014 \"Auslegungsbeschluss im Verfahren zur Aufhebung des Bebauungsplanes \"Wohn- und Freizeitpark Unter dem Krippendorfer Wege\" im Ortsteil Isserstedt\"\r\nBeschlussvorlage 13/2224-BV - Beschluss des Stadtrates vom 25.07.2013 \"Satzung der Stadt Jena über die Veränderungssperre im Bereich des Bebauungsplanes \"Wohn- und Freizeitpark unter dem Krippendorfer Wege\" in der Gemarkung Isserstedt, Flur 6\"\r\nBeschlussvorlage 12/1784-BV - Beschluss des Stadtrates vom 30.01.2013 \"Einleitung eines Verfahrens zur Aufhebung des Bebauungsplanes \"Wohn- und Freizeitpark Unter dem Krippendorfer Wege\" im Ortsteil Isserstedt\""
+      ],
       "Links": [
         {
           "title": "BV - Auslegungsbeschluss zur Aufhebung des Bebauungsplans",
@@ -110,46 +302,160 @@
           "title": "BV - Einleitungsbeschluss zur Aufhebung des Bebauungsplans",
           "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5280"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Unterlagen haben öffentlich ausgelegen. In Vorbereitung der Abwägung gibt es Verhandlungen mit dem damaligen Vorhabenträger."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Für das Jahr 2015 stehen die Abwägung und im Ergebnis entweder eine Neuaufnahme des Planverfahrens oder eine endgültige Planaufhebung an."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Isserstedt"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nKultur / Freizeit / Sport\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Zuge des Planverfahrens gem. BauGB"
       ]
     },
     {
-      "Title": "Bebauungsplan \"Lobeda-Süd LS 3\"",
-      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für die Ausweisung als Gewerbebauflächen geschaffen. Es handelt sich um den 2. Planentwurf.",
+      "@Id": "457587",
+      "Title": "Bebauungsplan \"Schulstandort Jenzigweg\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für den Neubau einer mehrzügigen Gesamtschule im Ortsteil Wenigenjena geschaffen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/0257-BV - Beschluss des Stadrates vom 28.01.2015 \"Billigungs- und Auslegungsbeschluss zum geänderten Entwurf des Bebauungsplanes \"Schulstandort Jenzigweg\", B-Wj 13\""
+      ],
       "Links": [
         {
-          "title": "BV - Planentwurf- und Aufstellungsbeschluss 2008",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=1592"
+          "title": "BV - Billigungs- und Auslegungsbeschluss",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6600"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Unterlagen zum geänderten Bebauungsplan werden zeitnah öffentlich ausgelegt."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Mit einem Bauantrag ist im II. Quartal 2015 zu rechnen."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Wenigenjena"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nBildung / Wissenschaft\r\nKinder / Jugend / Familie\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Zuge des Planverfahrens gem. BauGB"
       ]
     },
     {
+      "@Id": "439390",
+      "Title": "Entwicklung Bachstraßenviertel",
+      "Description": "Die Konzentration des Universitätsklinikums am Standort Lobeda erfordert planerische Überlegungen zur Umnutzung und Weiterentwicklung des Bereichs \"Bachstraße\". Neben der Stärkung der Kernstadt in ihrer Wohnfunktion ist auch die Schaffung einer Nutzungsvielfalt in Anlehnung an die Struktur der angrenzenden Viertel vorgesehen, um diese entsprechend zu stützen.",
+      "Letzter Beschluss zum Vorhaben": [],
+      "Links": [],
+      "Aktueller Bearbeitungsstand": [
+        "Für das Jahr 2015 sind ufangreiche Planungen sowie Abstimmungen mit den Eigentümern vorgesehen."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "ab 2016"
+      ],
+      "Kosten soweit bezifferbar": [
+        "Kosten für externe Begleitung sind eingeplant, aber noch nicht bezifferbar."
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-West"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nKinder / Jugend / Familie\r\nStadtentwicklung / Stadtplanung\r\nVerkehr / Mobilität"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Umfassende Bürgerbeteiligung in Form von Bürgerversammlungen, Bürgerarbeitskreisen, Informationsveranstaltungen, Beteiligungen und Aufrufe im Internet haben bereits stattgefunden. Für den Sommer 2015 ist eine abschließende Bürgerversammlung geplant."
+      ]
+    },
+    {
+      "@Id": "457686",
+      "Title": "Grundhafte Erneuerung der \"Löbstedter Straße\"",
+      "Description": "Der auszubauende Abschnitt der Löbstedter Straße verläuft annähernd in Süd-Nord-Richtung und befindet sich im Stadtteil Jena-Nord der Stadt Jena.\r\nAusbaubeginn ist das in diesem Jahr fertiggestellte Ausbauende der Lobstedter Straße; das Ausbauende liegt hinter der ehemaligen nördlichen Schlachthofzufahrt. Die Fahrbahn und die Gehwege werden grundhaft ausgebaut.",
+      "Einleitung": [
+        "Aufgrund des schlechten Strasenzustandes und des Sanierungsbedarfes unterirdischer Versorgungsleitungen ist der grundhafte Ausbau erforderlich. Die Fahrbahndecke aus Asphalt weist zahlreiche Schäden auf. Es sind Fahrbahnabsenkungen in Form von Spurrinnen und Unebenheiten vorhanden. In der Asphaltdecke sind zahlreiche Risse sichtbar. Die vorhandenen Fahrbahnschäden lassen auf einen unzureichend tragfähigen Straßenoberbau schließen."
+      ],
+      "Links": [
+        {
+          "title": "BV - Grundhafte Erneuerung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=5951&voselect=5040"
+        }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 13/2326-BV - Beschluss des Stadtentwicklungsausschusses vom 28.11.2013 \"Grundhafte Erneuerung der Löbstedter Straße von Wiesenstraße bis Fritz-Winkler-Straße\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Entwurfsplanung ist abgeschlossen und wird derzeit geprüft."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Als nächster Schritt ist die Veröffentlichung geplant, der Baubeginn ist frühestens am 01.06.2015."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 1.170.000 € (gem- der Entwurfsplanung)"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-Nord"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Mobilität / Verkehr\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Es wurden Ortsbegehungen mit dem Orteteilbürgermeister durchgeführt, die Vorplanung wurde in der AG Radverkehr und dem Ortsteilrat vorgestellt und es wurden Informationsschreiben an alle Eigentümer verschickt."
+      ]
+    },
+    {
+      "@Id": "439438",
       "Title": "Errichtung einer begehbaren Gartenbauskulptur (\"Folly\")",
-      "Description": "Seit dem Jahr 1992 verleiht die Stadt Jena den Botho-Graef-Preis in Erinnerung an den deutschen Archäologen und Kunsthistoriker und in Würdigung seines Engagements für die moderne Kunst.",
+      "Description": "Seit dem Jahr 1992 verleiht die Stadt Jena den Botho-Graef-Preis in Erinnerung an den deutschen Archäologen und Kunsthistoriker und in Würdigung seines Engagements für die moderne Kunst.\r\nDer Siegerentwurf des Jahres 2012 stammt von der Künstlerin Anika Gründer aus Weimar und stellt eine begehbare Gartenbauskulptur (\"Folly\") dar. Diese Skulptur wird im Garten der Villa Rosenthal realisiert.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Entscheidung der Jury zum Botho-Graef-Kunstpreis 2012"
+      ],
       "Links": [
         {
           "title": "Botho-Graef-Kunstpreis der Stadt Jena 2015",
           "url": "http://www.jenakultur.de/de/218117"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Bauvorbereitung läuft."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Die Maßnahmen werden in der Zeit vom 01. April bis 31. Mai 2015 durchgeführt."
+      ],
+      "Kosten soweit bezifferbar": [
+        "50.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Kultur / Freizeit / Sport"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Nein.",
+        "Die Entscheidung zur Errichtung des Folly wurde durch eine unabhängige Fachjury im Rahmen eines künstlerischen Wettbewerbs getroffen."
       ]
     },
     {
-      "Title": "Entwicklung Bachstraßenviertel",
-      "Description": "Die Konzentration des Universitätsklinikums am Standort Lobeda erfordert planerische Überlegungen zur Umnutzung und Weiterentwicklung des Bereichs \"Bachstraße\". Neben der Stärkung der Kernstadt in ihrer Wohnfunktion ist auch die Schaffung einer Nutzungsvielfalt in Anlehnung an die Struktur der angrenzenden Viertel vorgesehen, um diese entsprechend zu stützen.",
-      "Links": []
-    },
-    {
-      "Title": "Erschließung des Wohnbaugebietes \"Hausbergviertel\"",
-      "Description": "Das Vorhaben beinhaltet die straßenbauliche und medientechnische Planung zur Erschließung des Wohnbaugebietes \"Hausbergviertel\" durch die Planstraßen A und B sowie weitere Gehwege und Treppenanlagen.",
-      "Links": [
-        {
-          "title": "BV - Abwägungsbeschluss zum Bebauungsplan",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6583"
-        }
-      ]
-    },
-    {
+      "@Id": "457693",
       "Title": "Grundhafte Erneuerung - Lutherstraße mit Riedstraße und Blumenstraße",
-      "Description": "Der grundhafte Straßenausbau wird durch den sehr mangelhaften Straßenzustand, die jährlich eintretenden umfangreichen Frostschäden im Frühjahr und den hohen Sanierungsbedarf der unterirdischen Versorgungswirtschaft erforderlich.",
+      "Description": "Der grundhafte Straßenausbau wird durch den sehr mangelhaften Straßenzustand, die jährlich eintretenden umfangreichen Frostschäden im Frühjahr und den hohen Sanierungsbedarf der unterirdischen Versorgungswirtschaft erforderlich.\r\nEs sind Fahrbahnabsenkungen in Form von Spurrinnen, Flickstellen und Unebenheiten vorhanden. Die vorhandenen Fahrbahnschäden lassen auf einen unzureichend tragfähigen Straßenoberbau schließen.",
+      "Einleitung": [],
       "Links": [
         {
           "title": "BV - Grundhafte Erneuerung",
@@ -159,81 +465,268 @@
           "title": "Blog Baumaßnahme Lutherstraße - Akt. Infos zum Bauprojekt",
           "url": "https://blog.jena.de/lutherstrasse/"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/2430-BV - Beschluss des Stadtrates vom 26.03.2014 \"Grundhafte Erneuerung der \"Lutherstraße\" von \"Carl-Zeiss-Platz\" bis \"Katharinenstraße\"\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Der 1. Bauabschnitt wurde im Dezember 2014 abgeschlossen."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Der 2. Bauabschnitt beginnt im März 2015."
+      ],
+      "Kosten soweit bezifferbar": [
+        "1.800.000 € Lutherstraße\r\n195.000 € Blumenstraße\r\n185.000 € Riedstraße"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Mobilität / Verkehr\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Bürgerinformationsveranstaltungen sowie Beteiligung im Planverfahren. Die laufende Kommunikation zur Baumaßnahme erfolgt über einen Blogim Internet."
       ]
     },
     {
-      "Title": "Bebauungsplan \"Wohngebiet beim Mönchenberge\"",
-      "Description": "Für das bisher als „ehemalige Studentenbaracken an der Naumburger Straße“ bezeichnete Gebiet in Zwätzen soll ein Bebauungsplan aufgestellt werden. Das Plangebiet wird südlich begrenzt vom Flurweg, östlich von der Naumburger Straße, westlich durch den Übergang zur offenen Landschaft und nördlich durch Nachbarbebauung in mehrgeschossiger Bauweise als auch in aufgelockerter Form.",
-      "Links": [
-        {
-          "title": "BV - Aufstellungsbeschluss zum Bebauungsplan",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6105&voselect=5707"
-        }
-      ]
-    },
-    {
+      "@Id": "451300",
       "Title": "Fortschreibung des Schulnetzplans der Stadt Jena 2016 - 2020",
-      "Description": "Jena ist geprägt von einer vielfältigen Schullandschaft, die den unterschiedlichsten bildungstechnischen Ansprüchen genügt. Die Gestaltung ist Aufgabe der Kommune und erfolgt unter Berücksichtigung der Bevölkerungsprognose sowie aktiver Beteiligung verschiedener Akteure.",
+      "Description": "Jena ist geprägt von einer vielfältigen Schullandschaft, die den unterschiedlichsten bildungstechnischen Ansprüchen genügt. Die Gestaltung ist Aufgabe der Kommune und erfolgt unter Berücksichtigung der Bevölkerungsprognose sowie aktiver Beteiligung verschiedener Akteure.\r\nDer Schulnetzplan wird jeweils für einen Zeitraum von 4 Jahren erstellt und dann jährlich fortgeschrieben.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 13/2241-BV - Beschluss des Stadtrates vom 26.11.2013 \"Fortschreibung des Schulnetzplans 2011 - 2015\""
+      ],
       "Links": [
         {
           "title": "Fortschreibung des Schulnetzplans 2011 - 2015",
           "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5841&search=1"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Derzeit wird ein Entwurf der Verwaltung erstellt."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Der Verwaltungsentwurf wird in den zuständigen Ausschüssen und dem Stadtrat vorgestellt."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Gesamtstädtisch"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bildung / Wissenschaft"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Es wurden Schulkonferenzen durchgeführt sowie das Jugendparlament und die Ortsteilbürgermeister einbezogen."
       ]
     },
     {
-      "Title": "Grundhafter Ausbau - Wagnergasse und Johannisplatz",
-      "Description": "Bei der vorliegenden Baumaßnahme handelt es sich um die Neugestaltung und den grundhaften Ausbau der Wagnergasse und des Johannisplatzes in Zentrumsnähe. Die Straßen befinden sich in der Altstadt von Jena und sind geprägt durch eine geschlossene historische Bebauung. Dieses Vorhaben erlangte oberste Priorität, da die mit der Maßnahme verbundene Erneuerung des 1910 gebauten Abwasserkanals und die Erneuerung der Trinkwasserleitung aus dem Jahr 1960 aufgrund des Zustandes der Leitungen keinen Aufschub mehr dulden.",
+      "@Id": "457666",
+      "Title": "Bebauungsplan \"Wohngebiet beim Mönchenberge\"",
+      "Description": "Für das bisher als „ehemalige Studentenbaracken an der Naumburger Straße“ bezeichnete Gebiet in Zwätzen soll ein Bebauungsplan aufgestellt werden. Das Plangebiet wird südlich begrenzt vom Flurweg, östlich von der Naumburger Straße, westlich durch den Übergang zur offenen Landschaft und nördlich durch Nachbarbebauung in mehrgeschossiger Bauweise als auch in aufgelockerter Form.",
+      "Einleitung": [],
       "Links": [
         {
-          "title": "BV - Frei- und Verkehrsanlagenplanung",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6304"
+          "title": "BV - Aufstellungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6105&voselect=5707"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/2438-BV - Beschluss des Stadtrates vom 26.03.2014 \"Aufstellungsbeschluss zum Bebauungsplan B-Zw 05 \"Wohngebiet beim Mönchenberge\"\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Durch die Eigentümerin wurden erste Konzepte vorgelegt, der städtebauliche Vertrag ist in Arbeit."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Das Planverfahren wird voraussichtlich bis 2016 andauern, die Umsetzung des Gesamtprojektes kann 8 bis 10 Jahre umfassen."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Zwätzen"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Noch keine konkreten Planungen."
       ]
     },
     {
+      "@Id": "457674",
+      "Title": "Erschließung des Wohnbaugebietes \"Hausbergviertel\"",
+      "Description": "Das Vorhaben beinhaltet die straßenbauliche und medientechnische Planung zur Erschließung des Wohnbaugebietes \"Hausbergviertel\" durch die Planstraßen A und B sowie weitere Gehwege und Treppenanlagen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/0243-BV - Beschluss des Stadtrates vom 25.02.2015 \"Abwägungsbeschluss zum 2. Entwurf für die Änderung des Bebauungsplanes \"Hausbergviertel\"\""
+      ],
+      "Links": [
+        {
+          "title": "BV - Abwägungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6583"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Derzeit wird die Entwurfsplanung erarbeitet."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Die bauliche Realisierung soll in den Jahren 2016 / 2017 erfolgen."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 4.500.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "Wenigenjena"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nMobilität / Verkehr\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Rahmen des Verfahrens zur Erarbeitung des Bebauungsplans erfolgte eine intensive Beteiligung der Bürger und des Ortsteilrates."
+      ]
+    },
+    {
+      "@Id": "457684",
       "Title": "Grundhafte Erneuerung der Straße \"Burgweg\"",
       "Description": "Der \"Burgweg\" muss grundhaft erneuert, verbessert und an bestimmten Stellen erweitert werden. die Planung umfasst den notwendigen Ausbau mit dem Abschnitt vom „Camsdorfer Ufer“ bis zur sog. „Planstraße B“.",
+      "Einleitung": [],
       "Links": [
         {
           "title": "BV - Grundhafte Erneuerung des Burgwegs",
           "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5063"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 12/1600-BV - Beschluss des Stadtrates vom 30.01.2013 \"Grundhafte Erneuerung der Straße \"Burgweg\" (vom \"Camsdorfer Ufer\" bis zur sog. \"Planstraße B\")\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Baumaßnahme wird derzeit umgesetzt."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Das Bauende ist für Oktober 2015 vorgesehen."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 4.000.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "Wenigenjena\r\nKernberge"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nMobilität / Verkehr\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Es wurden Informationsveranstaltungen sowie die formelle Beteiligung gem. BauGB durchgeführt."
       ]
     },
     {
+      "@Id": "457681",
       "Title": "Grundhafte Erneuerung der Susanne-Bohl-Straße",
-      "Description": "Die grundhafte Erneuerung der Susanne-Bohl-Straße erfolgt von der Jenaischen Straße Haus Nr. 20 bis zur Einmündung Struvestraße und Bereich Stadthof.",
+      "Description": "Die grundhafte Erneuerung der Susanne-Bohl-Straße erfolgt von der Jenaischen Straße Haus Nr. 20 bis zur Einmündung Struvestraße und Bereich Stadthof.\r\nZum Leistungsumfang gehören der Straßen- und Gehwegebau, Parkflächen, Einfahrten, Stützbauwerke, Straßenbeleuchtung, Straßenentwässerung sowie Straßenbegleitgrün.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 12/1591-BV - Beschluss des Stadtrates vom 30.01.2013 \"Grundhafte Erneuerung der \"Ortsdurchfahrt Lobeda Altstadt I / Susanne-Bohl-Straße\"\""
+      ],
       "Links": [
         {
           "title": "BV - Grundhafte Erneuerung",
           "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5054"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Der 1. Bauabschnitt ist bereits fertiggestellt."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Der 2. und der 3. Bauabschnitt sollen im Zeitraum Frühjahr 2015 bis November 2015 realisiert werden."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 1.400.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "Lobeda-Altstadt"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Mobilität / Verkehr\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Es wurden Informationsveranstaltungen vor dem Baubeginn des 1. Bauabschnitts sowie die formelle Beteiligung gem. BauGB durchgeführt."
       ]
     },
     {
-      "Title": "Grundhafte Erneuerung der \"Löbstedter Straße\"",
-      "Description": "Der auszubauende Abschnitt der Löbstedter Straße verläuft annähernd in Süd-Nord-Richtung und befindet sich im Stadtteil Jena-Nord der Stadt Jena.",
+      "@Id": "443446",
+      "Title": "Grundhafter Ausbau der Ziegenhainer Straße, Teil Burgweg bis Ziegenhainer Straße 6",
+      "Description": "Aufgrund eines Hangrutsches ist die Straße seit 2009 gesperrt. Für den Ausbau des genannten Teilbereichs wurden verschiedene Varianten untersucht. Nach eingehender Prüfung und Abwägung wird der Straßenabschnitt als Einbahnstraße (3,80 m breit) mit einem Gehweg (1,50 m breit) gebaut.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 11/1178-BV - Beschluss des Stadtentwicklungsausschusses vom 17.11.2011 \"Planung Ziegenhainer Straße, Burgweg bis Ziegenhainer Straße 6\""
+      ],
       "Links": [
         {
-          "title": "BV - Grundhafte Erneuerung",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=5951&voselect=5040"
+          "title": "BV - Planung Ziegenhainer Straße",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=4561"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Seit Januar 2015 liegt die Entwurfsplanung vor."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Im Jahr 2015 wird zunächst die Hangsicherung realisiert, der Straßenbau erfolgt in den Jahren 2016 / 2017."
+      ],
+      "Kosten soweit bezifferbar": [
+        "330.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "Kernberge"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Stadtentwicklung / Stadtplanung\r\nVerkehr / Mobilität"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Eine umfassende Bürgerbeteiligung hat bereits stattgefunden."
       ]
     },
     {
-      "Title": "Integriertes Stadtentwicklungkonzept Jena 2030",
-      "Description": "Die Stadt Jena hat 2001 vor dem Hintergrund eines gesamtstädtischen Wohnungsleerstandes von ca. 6 % ein Stadtentwicklungskonzept erarbeitet, das Strategien für die Gesamtentwicklung der Stadt und schwerpunktmäßig die Stärkung des Wohnungsmarktes der Stadt beinhaltete. In diesem Zusammenhang wurden die drei Stadtumbaugebiete „Innenstadt“, „Lobeda“ und „Winzerla“ festgelegt. Dieses Stadtentwicklungskonzept wurde im Januar 2002 vom Stadtrat beschlossen.",
+      "@Id": "451290",
+      "Title": "Integriertes Klimaschutzkonzept der Stadt Jena",
+      "Description": "Zur Umsetzung der im \"Leitbild Energie und Klimaschutz 2014 - 2020\" formulierten Ziele wird ein Integriertes Klimaschutzkonzept erarbeitet. Nach der IST-Analyse erfolgt eine Analyse der Potenziale. Der gesamte Prozess der Erarbeitung wird durch die Beteiligung zahlreicher Akteure und eine geeignete Öffentlichkeitsarbeit begleitet. Im Ergebnis werden ein Maßnahmenkatalog sowie ein Controlling- und Kommunikationskonzept vorliegen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/2462-BV - Beschluss des Stadtrates vom 14.05.2014 \"Leitbild Energie und Klimaschutz 2014 - 2020\""
+      ],
       "Links": [
         {
-          "title": "BV Integriertes Stadtentwicklungskonzept (ISEK)",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6595&search=1"
+          "title": "BV - Leitbild Energie und Klimaschutz 2014 - 2020",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6138"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die IST-Analyse ist abgeschlossen und die Potenzialanalyse wurde begonnen."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Die Erarbeitung des Konzeptes soll Ende Juni 2015 abgeschlossen sein, danach erfolgt die Vorstellung in den politischen Gremien."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 50.000 € für externe Bearbeitung"
+      ],
+      "Betroffenes Gebiet": [
+        "Gesamtstädtisch"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Umwelt / Energie"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Umfassende Bürgerbeteiligung in Form von öffentlichen Veranstaltungen, Workshops, Umfragen und Informationen im Internet."
       ]
     },
     {
+      "@Id": "450306",
       "Title": "Bebauungsplan - \"Wohngebiet Am Oelste\"",
       "Description": "Im Flächennutzungsplan der Stadt Jena ist das für den Bebauungsplan vorgesehene Areal bislang als gemischte bzw. gewerbliche Baufläche dargestellt. Am 15.05.2013 hat der Stadtrat die „Arbeitsplatz- und Gewerbeflächenentwicklung Jena 2025“ als Grundlage für die weitere Gewerbeflächenentwicklung der Stadt Jena und die Fortschreibung des Flächennutzungsplanes bestätigt. Hierin wird darauf eingegangen, dass der Standort [mit der bisherigen Arbeitsbezeichnung Zwätzen-Nord Teil 2] nicht als Gewerbefläche geeignet ist.",
+      "Einleitung": [],
       "Links": [
         {
           "title": "Aufstellungsbeschluss Bebauungsplan",
@@ -243,75 +736,37 @@
           "title": "Neues Wohnen in Jena-Zwätzen - Ideenwerkstatt",
           "url": "http://www.ideenwerkstatt.jena.de/"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 13/2093-BV - Aufstellungsbeschluss für den Bebauungsplan B-Zw 06 \"Wohngebiet Am Oelste\" im Ortsteil Zwätzen"
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Der städtebauliche Rahmenplan wurde als Grundlage für den Bebauungsplan erarbeitet."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Erstellung des Bebauungsplans und Umsetzung des Gesamtprojektes in mehreren Erschließungsabschnitten"
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 50.000 € für externe Bearbeitung"
+      ],
+      "Betroffenes Gebiet": [
+        "Zwätzen"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nKinder / Jugend / Familie\r\nMobilität / Verkehr\r\nSoziales / Senioren\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Umfassende Bürgerbeteiligung in Form von Bürgerinformationsveranstaltungen, Workshops und Informationen im Internet."
       ]
     },
     {
-      "Title": "Grundhafter Ausbau der Ziegenhainer Straße, Teil Burgweg bis Ziegenhainer Straße 6",
-      "Description": "Aufgrund eines Hangrutsches ist die Straße seit 2009 gesperrt. Für den Ausbau des genannten Teilbereichs wurden verschiedene Varianten untersucht. Nach eingehender Prüfung und Abwägung wird der Straßenabschnitt als Einbahnstraße (3,80 m breit) mit einem Gehweg (1,50 m breit) gebaut.",
-      "Links": [
-        {
-          "title": "BV - Planung Ziegenhainer Straße",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=4561"
-        }
-      ]
-    },
-    {
-      "Title": "Integriertes Klimaschutzkonzept der Stadt Jena",
-      "Description": "Zur Umsetzung der im \"Leitbild Energie und Klimaschutz 2014 - 2020\" formulierten Ziele wird ein Integriertes Klimaschutzkonzept erarbeitet. Nach der IST-Analyse erfolgt eine Analyse der Potenziale. Der gesamte Prozess der Erarbeitung wird durch die Beteiligung zahlreicher Akteure und eine geeignete Öffentlichkeitsarbeit begleitet. Im Ergebnis werden ein Maßnahmenkatalog sowie ein Controlling- und Kommunikationskonzept vorliegen.",
-      "Links": [
-        {
-          "title": "BV - Leitbild Energie und Klimaschutz 2014 - 2020",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6138"
-        }
-      ]
-    },
-    {
-      "Title": "Grundhafter Ausbau einer Erschließungsstraße für das Wohngebiet \"Hausbergviertel\"",
-      "Description": "In Verlängerung der bereits vorhandenen Bestandsstraße \"Ulmer Straße\" sollen ca. 66 m Straße als Erschließungsstraße für einen Teil der Wohnbebauung im Bebauungsplan \"Hausbergviertel\" grundhaft ausgebaut werden.",
-      "Links": [
-        {
-          "title": "BV - Abwägungsbeschluss zum Bebauungsplan",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6583"
-        }
-      ]
-    },
-    {
-      "Title": "Kunst am Johannisplatz",
-      "Description": "Im Zuge der Neugestaltung des Johannisplatzes wird ein offener Wettbewerb zur Errichtung eines Kunstwerkes durchgeführt. In einem von einer Fachjury begleiteten, zweistufigen Verfahren soll ein realisierbarer Entwurf ausgewählt werden.",
-      "Links": [
-        {
-          "title": "Ausschreibung",
-          "url": "http://www.jenakultur.de/de/438037"
-        }
-      ]
-    },
-    {
-      "Title": "Kindertagesstättenbedarfsplan 2014 - 2016",
-      "Description": "Entsprechend § 80 Abs. 1 des 8. Sozialgesetzbuches ist das Jugendamt im Rahmen der Gesamtverantwortung verpflichtet, den Bestand an Einrichtungen und Diensten festzustellen, den Bedarf unter Berücksichtigung der Wünsche, Bedürfnisse und Interessen der jungen Menschen und Personensorgeberechtigten für einen mittelfristigen Zeitraum zu ermitteln und die zur Befriedigung des Bedarfs notwendigen Vorhaben rechtzeitig und ausreichend zu planen. Die Stadt Jena ist gemäß § 17 des Thüringer Kindertageseinrichtungsgesetzes (ThürKitaG) verpflichtet, die erforderlichen Plätze in Kindertageseinrichtungen bereitzustellen.",
-      "Links": [
-        {
-          "title": "BV - Kindertagesstättenbedarfsplan 2013 / 2014",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5689"
-        }
-      ]
-    },
-    {
-      "Title": "Leitlinien Mobilität in Jena 2013",
-      "Description": "Die Stadt Jena entwickelt ihren Verkehrsentwicklungsplan seit dem Jahr 2002 bausteinartig weiter. Die Arbeit am Plan wurde und wird als stetige Aufgabe verstanden, um auch mit der Kommunalpolitik und den Bürgerinnen und Bürgern verkehrspolitisch \"im Gespräch\" zu bleiben.",
-      "Links": [
-        {
-          "title": "BV - Fortschreibung Verkehrsentwicklungsplan 2015",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6446&search=1"
-        },
-        {
-          "title": "Blog Mobilitätskonzept",
-          "url": "https://blog.jena.de/mobilitaet/"
-        }
-      ]
-    },
-    {
+      "@Id": "451293",
       "Title": "Kinder- und Jugendförderplan 2016 - 2019",
-      "Description": "Der Kinder- und Jugendförderplan 2016 bis 2019 beschreibt die Ziele der Stadt Jena im Bereich der Jugendarbeit und Jugendsozialarbeit, welche Pflichtaufgaben der Kommune sind. Übergreifende Ziele werden durch das Leitbild „Bildung gemeinsam verantworten“ beschrieben.",
+      "Description": "Der Kinder- und Jugendförderplan 2016 bis 2019 beschreibt die Ziele der Stadt Jena im Bereich der Jugendarbeit und Jugendsozialarbeit, welche Pflichtaufgaben der Kommune sind. Übergreifende Ziele werden durch das Leitbild „Bildung gemeinsam verantworten“ beschrieben.\r\nDie Ausgestaltung der konkreten Maßnahmen soll bedarfsdeckend unter Berücksichtigung der finanziellen Möglichkeiten der Kommune erfolgen. In Jena obliegt die Planung dem Jugendhilfeausschuss und erfolgt unter Einbeziehung der Freien Träger der Jugendhilfe sowie der Kinder und Jugendlichen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 11/1240-BV - Beschluss des Stadtrates vom 14.12.2014 \"Kinder- und Jugendförderplan 2012 - 2015\""
+      ],
       "Links": [
         {
           "title": "BV - Kinder- und Jugendförderplan 2012 - 2015",
@@ -321,11 +776,100 @@
           "title": "BV - Bildung gemeinsam verantworten - ein Leitbild für Jena",
           "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=3976"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Erarbeitung des Plans erfolgt derzeit im Unterausschuss \"Jugendarbeit / Jugendsozialarbeit\" sowie im Jugendhilfeausschuss."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Der Jugendförderplan soll am 01.07.2015 im Jugendhilfeausschuss beschlossen werden."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 2.500.000 € für die Umsetzung der Maßnahmen p.a."
+      ],
+      "Betroffenes Gebiet": [
+        "Gesamtstädtisch"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bildung / Wissenschaft\r\nKinder / Jugend / Familie"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Durchführung einer Jugendversammlung am 24.04.2015. Zusätzlich wurden im Rahmen der Jugendstudie 2014 etwa 2.700 Kinder und Jugendliche zu ihren Interessen und Problemlagen befragt. Darüber hinaus beteiligung der anerkannten Träger der freien Jugendhilfe nach § 80 Abs. 3 SGB VIII."
       ]
     },
     {
+      "@Id": "457671",
+      "Title": "Grundhafter Ausbau - Wagnergasse und Johannisplatz",
+      "Description": "Bei der vorliegenden Baumaßnahme handelt es sich um die Neugestaltung und den grundhaften Ausbau der Wagnergasse und des Johannisplatzes in Zentrumsnähe. Die Straßen befinden sich in der Altstadt von Jena und sind geprägt durch eine geschlossene historische Bebauung. Dieses Vorhaben erlangte oberste Priorität, da die mit der Maßnahme verbundene Erneuerung des 1910 gebauten Abwasserkanals und die Erneuerung der Trinkwasserleitung aus dem Jahr 1960 aufgrund des Zustandes der Leitungen keinen Aufschub mehr dulden.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/0002-BV - Beschluss des Stadtentwicklungsausschusses vom 24.07.2014 \"Planung Frei- und Verkehrsanlagen Wagnergasse und Johannisplatz\""
+      ],
+      "Links": [
+        {
+          "title": "BV - Frei- und Verkehrsanlagenplanung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6304"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Entwurfsplanung steht kurz vor der Fertigstellung."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Der Baubeginn ist für Oktober 2015 geplant."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 1.600.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nMobilität / Verkehr\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Jahr 2014 erfolgten zahlreiche Bürgerinformationsveranstaltungen, Workshops sowie die Vorstellung der Planung in der AG Radverkehr, dem Baukunstbeirat und dem betroffenen Ortsteilrat."
+      ]
+    },
+    {
+      "@Id": "443449",
+      "Title": "Grundhafter Ausbau einer Erschließungsstraße für das Wohngebiet \"Hausbergviertel\"",
+      "Description": "In Verlängerung der bereits vorhandenen Bestandsstraße \"Ulmer Straße\" sollen ca. 66 m Straße als Erschließungsstraße für einen Teil der Wohnbebauung im Bebauungsplan \"Hausbergviertel\" grundhaft ausgebaut werden.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/0243-BV - Beschluss des Stadtrates vom 25.02.2015 \"Abwägungsbeschluss zum 2. Entwurf für die Änderung des Bebauungsplanes \"Hausbergviertel\"\""
+      ],
+      "Links": [
+        {
+          "title": "BV - Abwägungsbeschluss zum Bebauungsplan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6583"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Seit November 2012 liegt die Entwurfsplanung vor."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Die Ausführung der Baumaßnahme ist für den Sommer 2015 vorgesehen."
+      ],
+      "Kosten soweit bezifferbar": [
+        "202.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "Wenigenjena"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nStadtentwicklung / Stadtplanung\r\nVerkehr / Mobilität"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Umfassende Bürgerbeteiligung in Form von Bürgerversammlungen und Informationsveranstaltungen hat bereits stattgefunden."
+      ]
+    },
+    {
+      "@Id": "438593",
       "Title": "Konservierung und Restaurierung des Burschenschaftsdenkmals",
       "Description": "Durch eine massive Farbattacke im Juni 2011 wurde das Burschenschaftsdenkmal schwer beschädigt und wird nun gemäß dem vorliegenden Sanierungskonzept konserviert und restauriert. Im Anschluss daran wird es an einem geschützten Ort in der Innenstadt aufgestellt.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Nicht erforderlich"
+      ],
       "Links": [
         {
           "title": "Spendenaufruf",
@@ -335,139 +879,274 @@
           "title": "Zeitungsartikel OTZ vom 06.01.2015",
           "url": "http://jena.otz.de/web/lokal/leben/detail/-/specific/Generalueberholung-fuer-Burschenschaftsdenkmal-in-Jena-839803163"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Nach umfangreichen Analysen, Ultraschalluntersuchungen und Bewertungen der Marmoroberfläche durch Fachexperten wurde ein Sanierungskonzept erarbeitet. Zur Zeit läuft eine beschränkte Ausschreibung zur Auswahl des ausführenden Unternehmens für die notwendigen Maßnahmen."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Die Maßnahmen werden in der Zeit vom 01. April bis 31. Juli 2015 durchgeführt."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 50.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Kultur / Freizeit / Sport"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Nein.",
+        "Das Vorhaben ist fachlich begründet und unterliegt einer denkmalschutzrechtlichen Genehmigung."
       ]
     },
     {
-      "Title": "Neugestaltung und Neubau von kommunalen Spielplätzen",
-      "Description": "In den „Leitlinien für ein familienfreundliches Jena“, welche am 08.12.2011 vom Jenaer Stadtrat beschlossen wurden, heißt es:",
-      "Links": [
-        {
-          "title": "BV - Fortschreibung Netzplan Kommunale Spielplätze",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5299"
-        }
-      ]
-    },
-    {
-      "Title": "Planverfahren zur Änderung des Bebauungsplans \"Hausbergviertel\"",
-      "Description": "Am 12.06.1991 wurden durch Beschluss der Stadtverordnetenversammlung die weitere Gültigkeit mehrerer städtebaulicher Pläne hinsichtlich der nach § 9 BauGB verbindlichen Planinhalte bestätigt. Dazu gehörte auch der Bebauungsplan der Stadt Jena „Hausbergviertel“ vom 11.07.1927 mit Fluchtlinien-Änderung vom 24.04.1939, genehmigt durch das Thüringer Ministerium für Inneres vom 10.08.1939. Auf der Grundlage dieses Bebauungsplanes erfolgte die Entwicklung des Hausbergviertels in den zurückliegenden 80 Jahren.",
-      "Links": [
-        {
-          "title": "Abwägungsbeschluss 2. Entwurf Änderung Bplan Hausbergviertel",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6583&search=1"
-        }
-      ]
-    },
-    {
-      "Title": "Neugestaltung des Bereichs der \"Landfeste\"",
-      "Description": "Im Sanierungsgebiet \"Modellvorhaben der Stadterneuerung Jena, Teilgebiet VI - Ergänzungsgebiet Saaleufer soll der Bereich \"Landfeste\" neugestaltet werden. Geplant ist eine funktionale und gestalterische Aufwertung mit Aufenthalts- und Spielbereich sowie der Ausbau des Radweges.",
-      "Links": [
-        {
-          "title": "Beschlussvorlage",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=2699&search=1"
-        },
-        {
-          "title": "Sanierungssatzung",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=2633&search=1"
-        }
-      ]
-    },
-    {
+      "@Id": "439395",
       "Title": "Planverfahren zur Herstellung von Baurecht für die Erweiterung der Landesärztekammer",
-      "Description": "Die Landesärztekammer Thüringen ist eine Körperschaft des öffentlichen Rechts und hat ihren Sitz seit 1990 in Jena und seit 1997 in Jena-Maua. Sie betreut alle im Freistaat tätigen Ärzte (ca. 11000 Ärzte) sowie die Ausbildung zu Medizinischen Fachangestellten.",
+      "Description": "Die Landesärztekammer Thüringen ist eine Körperschaft des öffentlichen Rechts und hat ihren Sitz seit 1990 in Jena und seit 1997 in Jena-Maua. Sie betreut alle im Freistaat tätigen Ärzte (ca. 11000 Ärzte) sowie die Ausbildung zu Medizinischen Fachangestellten.\r\nIn den Jahren nach 1996 wurden ihr zusätzliche Funktionen übertragen, u.a. im Zuge der weiteren Qualifizierung der medizinischen Betreuung. Durch diesen Zuwachs bedingt, sind die Nutzungsgrenzen des Gebäudes und der Freianlagen insbesondere der Stellplätze erreicht bzw. schon seit längerem überschritten. Deshalb wird eine Erweiterung von Gebäude und Freianlagen erforderlich.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 12/1721-BV - Aufstellungsbeschluss für den vorhabenbezogenen Bebauungsplan \"Erweiterung der Landesärztekammer\""
+      ],
       "Links": [
         {
           "title": "Aufstellungsbeschluss Bplan Erweiterung Landesärztekammer",
           "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=5203&search=1"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Planentwurf"
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Mit dem Bau soll im Jahr 2015 begonnen werden."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Maua"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Stadtentwicklung / Stadtplanung\r\nWirtschaft / Arbeit"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Öffentliche Auslegung sowie Beteiligung aller Träger öffentlicher Belange und Behörden."
       ]
     },
     {
-      "Title": "Stadtteilentwicklungskonzept Ost",
-      "Description": "Das Jenaer Stadtgebiet ist in sechs Planungsräume (Alt- und Neulobeda, Ost, Nord, West / Zentrum und Ortschaften) gegliedert, die wiederum in statistische Bezirke aufgeteilt sind.",
+      "@Id": "439441",
+      "Title": "Kunst am Johannisplatz",
+      "Description": "Im Zuge der Neugestaltung des Johannisplatzes wird ein offener Wettbewerb zur Errichtung eines Kunstwerkes durchgeführt. In einem von einer Fachjury begleiteten, zweistufigen Verfahren soll ein realisierbarer Entwurf ausgewählt werden.",
+      "Letzter Beschluss zum Vorhaben": [
+        "-"
+      ],
       "Links": [
         {
-          "title": "Berichtsvorlage Stadtteilentw.-konzepte Ost, West/Zentrum",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5942&search=1"
+          "title": "Ausschreibung",
+          "url": "http://www.jenakultur.de/de/438037"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Ausschreibung für den künstlerischen Wettbewerb ist veröffentlicht und läuft vom 01. März bis 30. November 2015."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Nach einem zweistufigen Ausschreibungsverfahren werden zwei Jurysitzungen stattfinden und ausgewählte Wettbewerbsbeiträge in einer Ausstellung präsentiert. Die Realisierung des erstplatzierten Entwurfs kann in 2016 erfolgen."
+      ],
+      "Kosten soweit bezifferbar": [
+        "Wettbewerb mit Ausstellung - ca. 10.000 €\r\nRealisierung des Kunstwerks - ca. 50.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Kultur / Freizeit / Sport"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im September 2014 fand ein Workshop mit Kindern und Jugendlichen statt, die in Arbeitsgruppen ihre Wünsche und Vorstellungen bezüglich des zu errichtenden Kunstwerks zusammentrugen. Die Wünsche wurden als Kriterien in die künstlerische Aufgabenstellung eingearbeitet. Darüber hinaus arbeiten zwei in diesem Workshop gewählte Vertreter der Kinder und Jugendlichen in der Jury mit."
       ]
     },
     {
-      "Title": "Planverfahren zur Aufstellung des Bebauungsplans \"Maua West\"",
-      "Description": "Gemäß dem bestätigten Konzept zur Arbeits- und Gewerbeflächenentwicklung Jena 2025 vom 15. Mai 2013 ist die Neuausweisung von ca. 7 Hektar gewerblicher Bauflächen am Stand \"Maua West\" geplant. Damit ist dieser Standort ein wichtiger Entwicklungsbereich im nachgefragten Südraum (Autobahnnähe).",
-      "Links": [
-        {
-          "title": "Aufstellungsbeschluss Bebauungsplan B-Ma 05",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6382&search=1"
-        }
-      ]
-    },
-    {
-      "Title": "Untersuchung möglicher Lärmminderungsmaßnahmen in den Ortsteilen Wöllnitz und Lobeda-Altstadt",
-      "Description": "Entlang der Stadtrodaer Straße ist für die Ortsteile Wöllnitz und Lobeda-Altstadt zu untersuchen sowie detailliert zu bewerten, welche Möglichkeiten zur Minderung des Straßenlärms bestehen. Die Ortsteilräte sind in diese Untersuchung einzubeziehen.",
-      "Links": [
-        {
-          "title": "BV - Lärmschutzwände in Wöllnitz und Lobeda-Altstadt",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6342"
-        },
-        {
-          "title": "BV - Lärmaktionsplan der Stadt Jena - Stufe 2",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6037"
-        }
-      ]
-    },
-    {
+      "@Id": "451282",
       "Title": "Städtebaulicher Rahmenplan \"Rähmen\"",
       "Description": "Mit dem Sanierungsgebiet \"Modellvorhaben der Stadterneuerung Jena, Teilgebiet VI - Ergänzungsgebiet Saaleufer\" hat sich die Stadt zur Aufwertung und Weiterentwicklung des Gebietes Am Anger / Am Rähmen bekannt. In Folge einer Bestandsaufnahme wurde der städtebauliche Rahmenplan \"Rähmen\" für dieses Gebiet erarbeitet. Dieser soll zukünftig als Planungsinstrument und Selbstbindungsplan der Stadt durch den Stadtrat bestätigt werden.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 09/1743-BV - Beschluss des Stadtrates vom 25.05.2009 zur förmlichen Festsetzung des Sanierungsgebietes"
+      ],
       "Links": [
         {
           "title": "Sanierungssatzung",
           "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=2633"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Der städtebauliche Rahmenplan liegt als Konzept vor."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Öffentliche Auslegung des Rahmenplans"
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 25.000 € für der Erarbeitung des Rahmenplans"
+      ],
+      "Betroffenes Gebiet": [
+        "Am Rähmen und Am Anger (teilweise)"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Freizeit / Kultur / Sport\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Gespräche mit den betroffenen Grundstückeigentümern zur Freiraumplanung und die Vorstellung im Ortsteilrat sind erfolgt. Öffentliche Auslegung und Einstellung im Internet folgen."
       ]
     },
     {
-      "Title": "Platz an der Griesbrücke und Wenigenjenaer Ufer",
-      "Description": "Mit der Umgestaltung des Bereiches soll eine funktionale und gestalterische Aufwertung des Gebietes entsprechend seiner Bedeutung im Rahmen des gesamtstädtischen Grünsystems und als stadtnaher Erholungsraum für Jena-Ost erreicht werden.",
+      "@Id": "451297",
+      "Title": "Kindertagesstättenbedarfsplan 2014 - 2016",
+      "Description": "Entsprechend § 80 Abs. 1 des 8. Sozialgesetzbuches ist das Jugendamt im Rahmen der Gesamtverantwortung verpflichtet, den Bestand an Einrichtungen und Diensten festzustellen, den Bedarf unter Berücksichtigung der Wünsche, Bedürfnisse und Interessen der jungen Menschen und Personensorgeberechtigten für einen mittelfristigen Zeitraum zu ermitteln und die zur Befriedigung des Bedarfs notwendigen Vorhaben rechtzeitig und ausreichend zu planen. Die Stadt Jena ist gemäß § 17 des Thüringer Kindertageseinrichtungsgesetzes (ThürKitaG) verpflichtet, die erforderlichen Plätze in Kindertageseinrichtungen bereitzustellen.",
+      "Einleitung": [],
       "Links": [
         {
-          "title": "Beschlussvorlage Rahmenplan Jena Ost - Gries",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//to0050.php?__ktonr=20658"
+          "title": "BV - Kindertagesstättenbedarfsplan 2013 / 2014",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5689"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 13/2122-BV - Beschluss des Stadtrates vom 13.11.2013 \"Kindertagesstättenbedarfsplan 2013 / 2014\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Erarbeitung des Plans erfolgt derzeit."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Der Jugendförderplan soll im Mai 2015 durch den Stadtrat beschlossen werden."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Gesamtstädtisch"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Kinder / Jugend / Familie"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Beteiligung des Stadtelternbeirates und der anerkannten Träger der freien Jugendhilfe nach § 80 Abs. 3 SGB VIII."
       ]
     },
     {
-      "Title": "Vorhabenbezogener Bebauungsplan \"Hotel am Planetarium\"",
-      "Description": "Im Jahr 2014 stellte die Ernst-Abbe-Stiftung bei der Stadt Jena den Antrag auf Einleitung eines vorhabenbezogenen Bebauungsplans zur Errichtung eines Hotelgebäudes westlich des Planetariums.",
+      "@Id": "439393",
+      "Title": "Planverfahren zur Änderung des Bebauungsplans \"Hausbergviertel\"",
+      "Description": "Am 12.06.1991 wurden durch Beschluss der Stadtverordnetenversammlung die weitere Gültigkeit mehrerer städtebaulicher Pläne hinsichtlich der nach § 9 BauGB verbindlichen Planinhalte bestätigt. Dazu gehörte auch der Bebauungsplan der Stadt Jena „Hausbergviertel“ vom 11.07.1927 mit Fluchtlinien-Änderung vom 24.04.1939, genehmigt durch das Thüringer Ministerium für Inneres vom 10.08.1939. Auf der Grundlage dieses Bebauungsplanes erfolgte die Entwicklung des Hausbergviertels in den zurückliegenden 80 Jahren.",
+      "Einleitung": [
+        "Am 28.10.2009 hat der Stadtrat der Stadt Jena den Beschluss zur Einleitung des Verfahrens zur Änderung des Bebauungsplanes „Hausbergviertel“ gefasst. Mit dieser Planänderung wird der noch nicht realisierte Teil des Bebauungsplanes am Hang des Hausberges zwischen dem Fuchsturmweg im Norden, der Greifbergstraße im Osten, dem Burgweg im Süden und der Hausbergstraße im Westen aktualisiert.",
+        "Am 15.12.2011 fasste der Stadtrat den Abwägungsbeschluss über die eingegangenen Anregungen gemäß den Anlagen 1 und 2. Das Abwägungsergebnis wurde in die Planung eingearbeitet und führte zur Erstellung des vorliegenden 2. Planentwurfes."
+      ],
       "Links": [
         {
-          "title": "BV - Einleitungsbeschluss zum VE-Plan",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6429"
+          "title": "Abwägungsbeschluss 2. Entwurf Änderung Bplan Hausbergviertel",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6583&search=1"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/0243-BV - Abwägungsbeschluss zum 2. Entwurf für die Änderung des Bebauungsplanes \"Hausbergviertel\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "2. Planentwurf"
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Die äußere Erschließung sowie die Baufeldfreimachung wurden bereits begonnen, die Realisierung des Hochbaus erfolgt ab 2015."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Wenigenjena"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nStadtentwicklung / Stadtplanung\r\nVerkehr / Mobilität"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Umfassende Bürgerbeteiligung in Form von Bürgerversammlungen und Informationsveranstaltungen hat bereits stattgefunden."
       ]
     },
     {
-      "Title": "Stadtteilentwicklungskonzept West / Zentrum",
-      "Description": "Das Jenaer Stadtgebiet ist in sechs Planungsräume (Alt- und Neulobeda, Ost, Nord, West / Zentrum und Ortschaften) gegliedert, die wiederum in statistische Bezirke aufgeteilt sind.",
+      "@Id": "439662",
+      "Title": "Planverfahren zur Aufstellung des Bebauungsplans \"Maua West\"",
+      "Description": "Gemäß dem bestätigten Konzept zur Arbeits- und Gewerbeflächenentwicklung Jena 2025 vom 15. Mai 2013 ist die Neuausweisung von ca. 7 Hektar gewerblicher Bauflächen am Stand \"Maua West\" geplant. Damit ist dieser Standort ein wichtiger Entwicklungsbereich im nachgefragten Südraum (Autobahnnähe).\r\nAls Planungsziele werden festgesetzt:\r\nSchaffung von Bauland für die Errichtung von Gewerbebetrieben\r\nSicherung der verkehrlichen und medientechnischen Erschließung\r\nAusweisung notwendiger Ausgleichflächen",
+      "Letzter Beschluss zum Vorhaben": [
+        "Stadtratsbeschluss Nr. 14/0069-BV vom 03.12.2014 - Aufstellungsbeschluss Bebauungsplan B-Ma 05 \"Maua West\""
+      ],
       "Links": [
         {
-          "title": "Berichtsvorlage Stadtteilentw.-konzepte Ost, West/Zentrum",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5942&search=1"
+          "title": "Aufstellungsbeschluss Bebauungsplan B-Ma 05",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6382&search=1"
         }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "in Bearbeitung"
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Von März bis Oktober 2015 erfolgt eine artenschutzrechtliche Erfassung."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Ortsteil Maua"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Stadtentwicklung / Stadtplanung\r\nWirtschaft / Arbeit\r\nUmwelt / Energie"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Die Konkretisierung der Maßnahmen erfolgt im 3. Quartal 2015."
       ]
     },
     {
-      "Title": "Vorhabenbezogener Bebauungsplan \"Wohnen am Johannisberg\"",
-      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für die Errichtung dreier Mehrfamilienhäuser am Ortsrand von Lobeda-Altstadt geschaffen.",
+      "@Id": "451322",
+      "Title": "Neugestaltung und Neubau von kommunalen Spielplätzen",
+      "Description": "In den „Leitlinien für ein familienfreundliches Jena“, welche am 08.12.2011 vom Jenaer Stadtrat beschlossen wurden, heißt es:\r\nJena ist eine kinder- und familienfreundliche Stadt.\r\nDie Bildungs- und Freizeitangebote sind familienfreundlich, vielfältig, bezahlbar und gut erreichbar.",
+      "Einleitung": [
+        "Das SGB VIII zeigt im § 1 die Pflicht der Kommunen zur Schaffung von Lebensbedingungen für junge Menschen auf, die ihre Entwicklung zu eigenverantwortlichen und gemeinschaftsfähigen Persönlichkeiten in einer kinder- und familienfreundlichen Umwelt ermöglichen.",
+        "Die Stadt Jena stellt sich dieser Aufgabe durch Festschreibung von Spielflächen für Kinder und Jugendliche."
+      ],
       "Links": [
         {
-          "title": "BV - Einleitungs- und Aufstellungsbeschluss",
-          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5821"
+          "title": "BV - Fortschreibung Netzplan Kommunale Spielplätze",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5299"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 12/1797-BV - Beschluss des Stadrates vom 19.12.2012 \"Fortschreibung Netzplan Kommunale Spielplätze\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Derzeit läuft die Erarbeitung der aktuellen Fortschreibung."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "2015"
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-West, Jena Zentrum, Maua, Lobeda, Wogau"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nKinder / Jugend / Famiie\r\nKultur / Freizeit / Sport"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Bei der Planung werden die Kinder und ihre Familien beteiligt, die Ergebnisse werden in den Ortsteilräten vorgestellt."
       ]
     },
     {
+      "@Id": "466948",
       "Title": "Verlängerung der Straßenbahn Himmelreich-Zwätzen",
-      "Description": "Im Januar 2014 hat der Stadtrat den Beschluss gefasst, die Straßenbahn im Norden Jenas bis zum Wohngebiet \"Himmelreich\" zu verlängern.",
+      "Description": "Im Januar 2014 hat der Stadtrat den Beschluss gefasst, die Straßenbahn im Norden Jenas bis zum Wohngebiet \"Himmelreich\" zu verlängern.\r\nIn den darauf folgenden Monaten wurden gemeinsam mit dem Kommunalservice Jena und dem Jenaer Nahverkehr verschiedene Varianten auf ihre technologische Umsetzbarkeit geprüft und unter wirtschaftlichen Gesichtspunkten betrachtet.",
+      "Einleitung": [
+        "Im November 2014 hat der Stadtentwicklungsausschuss die Verwaltung beauftragt, diese Variante bis zur Genehmigungsplanung zu bearbeiten."
+      ],
       "Links": [
         {
           "title": "BV - Verlängerung Straßenbahn HImmelreich",
@@ -477,6 +1156,342 @@
           "title": "Blog Bauprojekt Straßenbahn Himmelreich",
           "url": "https://blog.jena.de/straba/"
         }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/2545-BV - Beschluss des Stadtentwicklungsausschusses vom 13.11.2014 \"Verlängerung Straßenbahn Zwätzen-Himmelreich, Weitere Planung und Umsetzung\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Derzeit läuft das VOF-Verfahren zur Findung eines Planungsbüros, vorauss. Abschluss Mai 2015."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Ab Mai 2015 beginnt die Vorentwurfs- und Entwurfsplanung, im Jahr 2016 folgt das Planfeststellungsverfahren."
+      ],
+      "Kosten soweit bezifferbar": [
+        "Gesamtumfang: 17,6 Mio. €\r\nAnteil Stadt Jena: 6,2 Mio. €\r\nAnteil JNV: 11,4 Mio. €\r\nFörderquote: max. 75%"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-Nord\r\nLöbstedt\r\nZwätzen"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Mobilität / Verkehr\r\nWirtschaft / Arbeit"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im November 2014 fand eine erste Bürgerinformationsveranstaltung statt, weitere sind über den gesamten Planungs- und Umsetzungsprozess vorgesehen. Über einen Blog (-> Weiterführende Links) informiert die Stadt Jena regelmäßig über das Vorhaben."
+      ]
+    },
+    {
+      "@Id": "451279",
+      "Title": "Neugestaltung des Bereichs der \"Landfeste\"",
+      "Description": "Im Sanierungsgebiet \"Modellvorhaben der Stadterneuerung Jena, Teilgebiet VI - Ergänzungsgebiet Saaleufer soll der Bereich \"Landfeste\" neugestaltet werden. Geplant ist eine funktionale und gestalterische Aufwertung mit Aufenthalts- und Spielbereich sowie der Ausbau des Radweges.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 09/1743-BV - Beschluss des Stadtrates vom 06.03.2009 zur förmlichen Festlegung des Sanierungsgebietes\r\nBeschlussvorlage 09/1784-BV - Beschluss des Stadtrates vom 25.03.2009 zum \"Rahmenplan Saale\""
+      ],
+      "Links": [
+        {
+          "title": "Beschlussvorlage",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=2699&search=1"
+        },
+        {
+          "title": "Sanierungssatzung",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=2633&search=1"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die artenschutzrechtliche Prüfung für einen Teilbereich liegt vor, die Erweiterung des Untersuchungsgebietes unter der Camsdorfer Brücke / Saalebereich ist in Vorbereitung."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "artenschutzrechtliche Untersuchung / spezielle artenschutzrechtliche Püfung 04/2015 - 08/2016"
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 35.000 € für die artenschutzrechtliche Untersuchung / spezielle artenschutzrechtliche Püfung"
+      ],
+      "Betroffenes Gebiet": [
+        "Bereich \"Landfeste\" (Am Eisenbahndamm zwischen Camsdorfer Brücke und Stadtrodaer Straße)"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Kinder / Jugend / Familie\r\nFreizeit / Sport / Kultur\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Vorgesehen sind Workshops, die Vorstellung der PLanung im Ortschaftsrat und im öffentlichen Teil des Stadtentwicklungsausschusses"
+      ]
+    },
+    {
+      "@Id": "439340",
+      "Title": "Integriertes Stadtentwicklungkonzept Jena 2030",
+      "Description": "Die Stadt Jena hat 2001 vor dem Hintergrund eines gesamtstädtischen Wohnungsleerstandes von ca. 6 % ein Stadtentwicklungskonzept erarbeitet, das Strategien für die Gesamtentwicklung der Stadt und schwerpunktmäßig die Stärkung des Wohnungsmarktes der Stadt beinhaltete. In diesem Zusammenhang wurden die drei Stadtumbaugebiete „Innenstadt“, „Lobeda“ und „Winzerla“ festgelegt. Dieses Stadtentwicklungskonzept wurde im Januar 2002 vom Stadtrat beschlossen.\r\nDie demografischen Veränderungen der Gesellschaft und die neue Bevölkerungsprognose 2014 stellen die Stadt Jena vor neue Herausforderungen, so dass die Rahmenbedingungen für die zukünftige Entwicklung der Stadt erneut zu diskutieren und abzustimmen sind. Aus diesem Grund soll das Integrierte Stadtentwicklungskonzept (ISEK) der Stadt Jena fortgeschrieben werden. Dieses Konzept dient als Orientierungsrahmen und zeigt die Entwicklung Jenas bis 2030 auf.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschluss des Stadtrates Nr. 14/0254-BV vom 25.02.2015 - \"Integriertes Stadtentwicklungskonzept (ISEK) der Stadt Jena - Fortschreibung bis 2030\""
+      ],
+      "Links": [
+        {
+          "title": "BV Integriertes Stadtentwicklungskonzept (ISEK)",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6595&search=1"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Mit der Beschlussfassung wurde die Aufgabenstellung bestätigt, die konkreten Planungen sollen im 3. Quartal 2015 beginnen."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Die Erarbeitung des Konzeptes erfolgt in den Jahren 2015 - 2017."
+      ],
+      "Kosten soweit bezifferbar": [
+        "jeweils ca. 40.000 € in 2015 und 2016 Planungskosten für externe Bearbeitung"
+      ],
+      "Betroffenes Gebiet": [
+        "Gesamtstädtisch"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nBildung / Wissenschaft\r\nKinder / Jugend / Familie\r\nKultur / Freizeit / Sport\r\nMobilität / Verkehr\r\nSoziales / Senioren\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Es ist eine mfassende Bürgerbeteiligung in Form von Bürgerversammlungen, Bürgerarbeitskreisen, Informationsveranstaltungen, Beteiligungen und Aufrufen im Internet etc. vorgesehen."
+      ]
+    },
+    {
+      "@Id": "451286",
+      "Title": "Untersuchung möglicher Lärmminderungsmaßnahmen in den Ortsteilen Wöllnitz und Lobeda-Altstadt",
+      "Description": "Entlang der Stadtrodaer Straße ist für die Ortsteile Wöllnitz und Lobeda-Altstadt zu untersuchen sowie detailliert zu bewerten, welche Möglichkeiten zur Minderung des Straßenlärms bestehen. Die Ortsteilräte sind in diese Untersuchung einzubeziehen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/0036-BV - Beschluss des Stadtrates vom 03.09.2014 \"Lärmschutzwände in Wöllnitz und Lobeda-Altstadt\""
+      ],
+      "Links": [
+        {
+          "title": "BV - Lärmschutzwände in Wöllnitz und Lobeda-Altstadt",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6342"
+        },
+        {
+          "title": "BV - Lärmaktionsplan der Stadt Jena - Stufe 2",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6037"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Das Ergebnis der externen Untersuchung liegt Ende Februar 2015 vor."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Vorstellung der Ergebnisse in den betroffenen Ortsteilräten und im Stadtentwicklungsausschuss"
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 5.000 € für die externe Untersuchung"
+      ],
+      "Betroffenes Gebiet": [
+        "Wöllnitz\r\nLobeda-Altstadt"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Mobilität / Verkehr\r\nUmwelt / Energie"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Vorstellung der Ergebnisse in den betroffenen Ortsteilräten."
+      ]
+    },
+    {
+      "@Id": "457622",
+      "Title": "Vorhabenbezogener Bebauungsplan \"Wohnen am Johannisberg\"",
+      "Description": "Mit dem Verfahren wird die planungsrechtliche Voraussetzung für die Errichtung dreier Mehrfamilienhäuser am Ortsrand von Lobeda-Altstadt geschaffen.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 13/2231-BV - Beschluss des Stadrates vom 13.11.2013 \"Einleitung eines Verfahrens zur Aufstellung des Vorhabenbezogenen Bebauungsplanes \"Wohnen am Johannisberg\"\""
+      ],
+      "Links": [
+        {
+          "title": "BV - Einleitungs- und Aufstellungsbeschluss",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5821"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Der Vorhabenträger lässt zur Zeit einen Entwurf zum Vorhabenbezogenen Bebauungsplan."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Für das Jahr 2015 stehen die Abwägung und die Beteiligung der Betroffenen bzw. der Träger öffentlicher Belange an."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Lobeda-Altstadt"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nStadtentwicklung / Stadtplanung"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Zuge des Planverfahrens gem. BauGB"
+      ]
+    },
+    {
+      "@Id": "466959",
+      "Title": "Leitlinien Mobilität in Jena 2013",
+      "Description": "Die Stadt Jena entwickelt ihren Verkehrsentwicklungsplan seit dem Jahr 2002 bausteinartig weiter. Die Arbeit am Plan wurde und wird als stetige Aufgabe verstanden, um auch mit der Kommunalpolitik und den Bürgerinnen und Bürgern verkehrspolitisch \"im Gespräch\" zu bleiben.\r\nDie aktuelle Fortschreibung beginnt mit der Überprüfung der verkehrspolitishen Leitlinien des VEP 2002. Hierfür sind ab Anfang 2015 mindestens zwei öffentliche Arbeitskreise geplant.",
+      "Einleitung": [],
+      "Links": [
+        {
+          "title": "BV - Fortschreibung Verkehrsentwicklungsplan 2015",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6446&search=1"
+        },
+        {
+          "title": "Blog Mobilitätskonzept",
+          "url": "https://blog.jena.de/mobilitaet/"
+        }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/0125-BV - Beschluss des Stadtentwicklungsausschusses vom 30.10.2014 \"Fortschreibung Verkehrsentwicklungsplan 2015\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Am 18.02.2015 fand die öffentliche Auftaktveranstaltung statt. Die Planung wird im Moment intern weitergeführt."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "In Fortführung der Bearbeitung werden weitere öffetliche Veranstaltungen in 2015 stattfinden. Der Beschluss der \"Leitlinien Mobilität\" durch den Stadtrat ist für Ende 2015 geplant. Danach erfolgt die weitere inhaltliche Bearbeitung der ausstehenden konzeptionellen Bereiche."
+      ],
+      "Kosten soweit bezifferbar": [
+        "eingestellte Mittel: 100.000 €"
+      ],
+      "Betroffenes Gebiet": [
+        "gesamtstädtisch"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Mobilität / Verkehr\r\nStadtentwicklung / Stadtplanung\r\nUmwelt / Energie"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Im Februar 2015 fand die öffentliche Auftaktveranstaltung statt, weitere drei Veranstaltungen sind für 2015 noch geplant. Die genaue Ausgestaltung der Bürgerbeteiligung wird gemeinsam mit dem beratenden Büro und in Abhängigkeit vom Verlauf der Auftaktveranstaltung in einem iterativen Prozess entwickelt. Über einen Blog (siehe weiterführende Links) informiert die Stadt Jena regelmäßig über das Vorhaben."
+      ]
+    },
+    {
+      "@Id": "439306",
+      "Title": "Platz an der Griesbrücke und Wenigenjenaer Ufer",
+      "Description": "Mit der Umgestaltung des Bereiches soll eine funktionale und gestalterische Aufwertung des Gebietes entsprechend seiner Bedeutung im Rahmen des gesamtstädtischen Grünsystems und als stadtnaher Erholungsraum für Jena-Ost erreicht werden.\r\nIm Bereich der Griesbrücke soll eine Aufenthaltsfläche mit Sitzbänken und Spielmöglichkeiten entstehen, das Wenigenjenaer Ufer soll von der Tümplingstraße bis zur Einmünung Dammstraße als Promenadenweg in Fortsetzung der bestehenden Uferpromenade gestaltet werden.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Stadtratsbeschluss BV-11/0965 vom 08.06.2011 \"Rahmenplan Gries\""
+      ],
+      "Links": [
+        {
+          "title": "Beschlussvorlage Rahmenplan Jena Ost - Gries",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//to0050.php?__ktonr=20658"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Die Leistungsphase 3 (Entwurfsplanung) ist abgeschlossen. Das Vorhaben ruht derzeit."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Die Planung wird vorauss. in 2017 weitergeführt, die Umsetzung kann in den Jahren 2018/2019 erfolgen (evtl. in zwei Phasen)."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 990.000 € Baukosten entspr. Kostenvoranschlag unter Einsatz von Fördermitteln"
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Kultur / Freizeit / Sport"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Bürgerspaziergang\r\nVorstellung im Ortsteilrat\r\nWorkshop im Jugendclub Eastside",
+        "Weitere Formen der Beteiligung sind möglich"
+      ]
+    },
+    {
+      "@Id": "439659",
+      "Title": "Stadtteilentwicklungskonzept West / Zentrum",
+      "Description": "Das Jenaer Stadtgebiet ist in sechs Planungsräume (Alt- und Neulobeda, Ost, Nord, West / Zentrum und Ortschaften) gegliedert, die wiederum in statistische Bezirke aufgeteilt sind.\r\nAuf der Ebene des Planungsraums West / Zentrum soll ein Stadtteilentwickungskonzept erarbeitet werden. Damit wird die planungsraumbezogene Arbeit in Jena fortgesetzt und vervollständigt. In einem intensiven Beteiligungsprozess mit lokalen Akteuren und BürgerInnen werden themenübergreifend Stäken und Schwächen des Planungsraums herausgearbeitet, Problembereiche definiert, Impulsprojekte sowie die Zeit- und Rangfolge von Maßnahmen und Verantwortlichkeiten benannt und im Konzept zusammengefasst.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Berichtsvorlage Nr. 13/2316-BE vom 28.11.2013 \"Stadtteilentwicklungskonzepte für die Planungsräume Ost und West / Zentrum und Überblick zu weiteren Konzepten der Stadtentwicklung\""
+      ],
+      "Links": [
+        {
+          "title": "Berichtsvorlage Stadtteilentw.-konzepte Ost, West/Zentrum",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5942&search=1"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Das Stadtteilentwicklungskonzept wird seit Februar 2014 erarbeitet."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Das Konzept soll im 4. Quartal 2015 beschlossen werden."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 30.000 € für externe Bearbeitung"
+      ],
+      "Betroffenes Gebiet": [
+        "Planungsraum West / Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Stadtentwicklung / Stadtplanung\r\nWohnen / Bauen\r\nKultur / Freizeit / Sport\r\nKinder / Jugend / Familie\r\nVerkehr / Mobilität"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Umfassende Bürgerbeteiligung in Form von Bürgerversammlungen, Bürgerarbeitskreisen, Informationsveranstaltungen, Beteiligungen und Aufrufe im Internet haben bereits stattgefunden (Bürgerversammlungen / Bürgerarbeitskreise am 11.02.2014 / 31.03.2014 / 19.05.2014).",
+        "Für den Sommer 2015 ist eine abschließende Bürgerversammlung geplant."
+      ]
+    },
+    {
+      "@Id": "439309",
+      "Title": "Stadtteilentwicklungskonzept Ost",
+      "Description": "Das Jenaer Stadtgebiet ist in sechs Planungsräume (Alt- und Neulobeda, Ost, Nord, West / Zentrum und Ortschaften) gegliedert, die wiederum in statistische Bezirke aufgeteilt sind.\r\nAuf der Ebene des Planungsraums Ost soll ein Stadtteilentwickungskonzept erarbeitet werden. Damit wird die planungsraumbezogene Arbeit in Jena fortgesetzt und vervollständigt. In einem intensiven Beteiligungsprozess mit lokalen Akteuren und BürgerInnen werden themenübergreifend Stärken und Schwächen des Planungsraums herausgearbeitet, Problembereiche definiert, Impulsprojekte sowie die Zeit- und Rangfolge von Maßnahmen und Verantwortlichkeiten benannt und im Konzept zusammengefasst.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Berichtsvorlage Nr. 13/2316-BE vom 28.11.2013 \"Stadtteilentwicklungskonzepte für die Planungsräume Ost und West / Zentrum und Überblick zu weiteren Konzepten der Stadtentwicklung\""
+      ],
+      "Links": [
+        {
+          "title": "Berichtsvorlage Stadtteilentw.-konzepte Ost, West/Zentrum",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=5942&search=1"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Das Stadtteilentwicklungskonzept wird seit Februar 2014 erarbeitet."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Das Konzept soll im 4. Quartal 2015 beschlossen werden."
+      ],
+      "Kosten soweit bezifferbar": [
+        "ca. 26.000 € für externe Bearbeitung"
+      ],
+      "Betroffenes Gebiet": [
+        "Planungsraum Ost"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Stadtentwicklung / Stadtplanung\r\nWohnen / Bauen\r\nKultur / Freizeit / Sport\r\nKinder / Jugend / Familie\r\nVerkehr / Mobilität"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Umfassende Bürgerbeteiligung in Form von Bürgerversammlungen, Bürgerarbeitskreisen, Informationsveranstaltungen, Beteiligungen und Aufrufe im Internet haben bereits stattgefunden (Bürgerversammlungen / Bürgerarbeitskreise am 04.02.2014 / 25.03.2014 / 05.05.2014).",
+        "Für den Sommer 2015 ist eine abschließende Bürgerversammlung geplant."
+      ]
+    },
+    {
+      "@Id": "457657",
+      "Title": "Vorhabenbezogener Bebauungsplan \"Hotel am Planetarium\"",
+      "Description": "Im Jahr 2014 stellte die Ernst-Abbe-Stiftung bei der Stadt Jena den Antrag auf Einleitung eines vorhabenbezogenen Bebauungsplans zur Errichtung eines Hotelgebäudes westlich des Planetariums.\r\nGegenstand der Planungen sind im Wesentlichen die Errichtung eines Hotels, die Optimierung und Schaffung von Veranstaltungs-, Tagungs- und Kongressräumlichkeiten im Zusammmenhang mit dem Planetarium und die Schaffung von Pkw-Stellplätzen in einer Tiefgarage.",
+      "Einleitung": [],
+      "Links": [
+        {
+          "title": "BV - Einleitungsbeschluss zum VE-Plan",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6429"
+        }
+      ],
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 14/0108-BV - Beschluss des Stadrates vom 03.09.2014 \"Antrag auf Einleitung eines Bebauungsplanverfahrens zur Errichtung eines Hotels am Planetarium\""
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Zur Zeit erfolgt die Erarbeitung des Entwurfs in Verantwortung der Vorhabenträgerin."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Die Umsetzung ist abhängig von der Vorhabenträgerin."
+      ],
+      "Kosten soweit bezifferbar": [
+        "-"
+      ],
+      "Betroffenes Gebiet": [
+        "Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nKultur / Freizeit / Sport\r\nStadtentwicklung / Stadtplanung\r\nWirtschaft / Arbeit"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Von Seiten der Vorhabenträgerin wurde eine intensive Einbeziehung Externer, vor allem des Ortsteilrates, zugesichert."
       ]
     }
   ]
