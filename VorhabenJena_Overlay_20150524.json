@@ -1,0 +1,593 @@
+{
+  "VorhabenOverlay": [
+
+    {
+      "@Id": "438593",
+      "Title": "Konservierung und Restaurierung des Burschenschaftsdenkmals",
+      "Tags": [
+		"Kultur",
+		"Freizeit",
+		"Sport"
+      ]
+    },
+
+    {
+      "@Id": "439306",
+      "Title": "Platz an der Griesbrücke und Wenigenjenaer Ufer",
+      "Tags": [
+		"Kultur",
+		"Freizeit",
+		"Sport"
+      ]
+    },
+
+    {
+      "@Id": "439309",
+      "Title": "Stadtteilentwicklungskonzept Ost",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Kinder",
+		"Jugend",
+		"Familie",
+		"Kultur",
+		"Freizeit",
+		"Sport",
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "439340",
+      "Title": "Integriertes Stadtentwicklungkonzept Jena 2030",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Bildung",
+		"Wissenschaft",
+		"Kinder",
+		"Jugend",
+		"Familie",
+		"Kultur",
+		"Freizeit",
+		"Sport",
+		"Mobilität",
+		"Verkehr",
+		"Soziales",
+		"Senioren",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "439390",
+      "Title": "Entwicklung Bachstraßenviertel",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Kinder",
+		"Jugend",
+		"Familie",
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "439393",
+      "Title": "Planverfahren zur Änderung des Bebauungsplans \"Hausbergviertel\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "439395",
+      "Title": "Planverfahren zur Herstellung von Baurecht für die Erweiterung der Landesärztekammer",
+      "Tags": [
+        "Wirtschaft",
+		"Arbeit",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "439438",
+      "Title": "Errichtung einer begehbaren Gartenbauskulptur (\"Folly\")",
+      "Kosten": "50000€",
+      "Tags": [
+        "Kultur",
+		"Freizeit",
+		"Sport"
+      ]
+    },
+
+    {
+      "@Id": "439441",
+      "Title": "Kunst am Johannisplatz",
+      "Tags": [
+        "Kultur",
+		"Freizeit",
+		"Sport",
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "439444",
+      "Title": "Aktionsplan \"Inklusive Stadt\"",
+	  "Timeline":
+	    {
+			"EndOf_2015_03": "Arbeitsgruppenphase",
+			"EndOf_2015_Q3": "Vorlage des Aktionsplan zur Beschlussfassung durch den Stadtrat."
+		},
+	  ],
+      "Tags": [
+        "Inklusion",
+		"Soziales",
+		"Senioren",
+		"Kinder",
+		"Jugend",
+		"Familie"
+      ]
+    },
+
+    {
+      "@Id": "439659",
+      "Title": "Stadtteilentwicklungskonzept West / Zentrum",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Kultur",
+		"Freizeit",
+		"Sport",
+		"Kinder",
+		"Jugend",
+		"Familie",
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "439662",
+      "Title": "Planverfahren zur Aufstellung des Bebauungsplans \"Maua West\"",
+      "Tags": [
+        "Wirtschaft",
+		"Arbeit",
+		"Umwelt",
+		"Energie",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "443446",
+      "Title": "Grundhafter Ausbau der Ziegenhainer Straße, Teil Burgweg bis Ziegenhainer Straße 6",
+      "Tags": [
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457674",
+      "Title": "Erschließung des Wohnbaugebietes \"Hausbergviertel\"",
+      "Kosten": "4500000€",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "450306",
+      "Title": "Bebauungsplan - \"Wohngebiet Am Oelste\"",
+      "Kosten": "50000€",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Kinder",
+		"Jugend",
+		"Familie",
+		"Mobilität",
+		"Verkehr",
+		"Soziales",
+		"Senioren",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "451279",
+      "Title": "Neugestaltung des Bereichs der \"Landfeste\"",
+      "Tags": [
+		"Kinder",
+		"Jugend",
+		"Familie",
+		"Freizeit",
+		"Sport",
+		"Kultur",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "451282",
+      "Title": "Städtebaulicher Rahmenplan \"Rähmen\"",
+      "Tags": [
+		"Freizeit",
+		"Sport",
+		"Kultur",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "451286",
+      "Title": "Untersuchung möglicher Lärmminderungsmaßnahmen in den Ortsteilen Wöllnitz und Lobeda-Altstadt",
+      "Tags": [
+		"Umwelt",
+		"Energie",
+		"Mobilität",
+		"Verkehr"
+      ]
+    },
+
+    {
+      "@Id": "451290",
+      "Title": "Integriertes Klimaschutzkonzept der Stadt Jena",
+      "Tags": [
+		"Umwelt",
+		"Energie"
+      ]
+    },
+
+    {
+      "@Id": "451293",
+      "Title": "Kinder- und Jugendförderplan 2016 - 2019",
+      "Tags": [
+		"Bildung",
+		"Wissenschaft",
+		"Kinder",
+		"Jugend",
+		"Familie"
+      ]
+    },
+
+    {
+      "@Id": "451297",
+      "Title": "Kindertagesstättenbedarfsplan 2014 - 2016",
+      "Tags": [
+		"Kinder",
+		"Jugend",
+		"Familie"
+      ]
+    },
+
+    {
+      "@Id": "451300",
+      "Title": "Fortschreibung des Schulnetzplans der Stadt Jena 2016 - 2020",
+      "Tags": [
+        "Bildung",
+		"Wissenschaft",
+		"Schulen",
+		"Kinder",
+		"Jugend"
+      ]
+    },
+
+    {
+      "@Id": "451318",
+      "Title": "Aktualisierung des Mietspiegels",
+	  "Timeline":
+	    {
+			"BeginOf_2015_06": "Präsentation der ersten Auswertungsergebnisse.",
+			"EndOf_2015_Q3": "Vorlage des Aktionsplan zur Beschlussfassung durch den Stadtrat."
+		},
+	  ],
+	  "Kosten": "44000€",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Mietspiegel"
+      ]
+    },
+
+    {
+      "@Id": "451322",
+      "Title": "Neugestaltung und Neubau von kommunalen Spielplätzen",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Kultur",
+		"Freizeit",
+		"Sport",
+		"Kinder",
+		"Jugend",
+		"Famiie"
+      ]
+    },
+
+    {
+      "@Id": "451330",
+      "Title": "Bebauungsplan \"Engelplatz / Neugasse\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Kultur",
+		"Freizeit",
+		"Sport",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457587",
+      "Title": "Bebauungsplan \"Schulstandort Jenzigweg\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Bildung",
+		"Wissenschaft",
+		"Kinder",
+		"Jugend",
+		"Familie",
+		"Schulen",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457601",
+      "Title": "Bebauungsplan \"Wohn- und Freizeitpark Unter dem Kippendorfer Weg\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Kultur",
+		"Freizeit",
+		"Sport",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457622",
+      "Title": "Vorhabenbezogener Bebauungsplan \"Wohnen am Johannisberg\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457633",
+      "Title": "Änderung des Bebauungsplans \"Universitätsklinikum Jena-Lobeda\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Soziales",
+		"Senioren",
+		"Wirtschaft",
+		"Arbeit",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457650",
+      "Title": "Bebauungsplan \"Im oberen Kreuz\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457655",
+      "Title": "Bebauungsplan \"Lobeda-Süd LS 3\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Wirtschaft",
+		"Arbeit",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457657",
+      "Title": "Vorhabenbezogener Bebauungsplan \"Hotel am Planetarium\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Kultur",
+		"Freizeit",
+		"Sport",
+		"Wirtschaft",
+		"Arbeit",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457661",
+      "Title": "Bebauungsplan \"Inselplatz\"",
+	  "Kosten": "100000€",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Bildung",
+		"Wissenschaft",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457666",
+      "Title": "Bebauungsplan \"Wohngebiet beim Mönchenberge\"",
+      "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457671",
+      "Title": "Grundhafter Ausbau - Wagnergasse und Johannisplatz",
+	  "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457674",
+      "Title": "Erschließung des Wohnbaugebietes \"Hausbergviertel\"",
+	  "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457681",
+      "Title": "Grundhafte Erneuerung der Susanne-Bohl-Straße",
+	  "Tags": [
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457684",
+      "Title": "Grundhafte Erneuerung der Straße \"Burgweg\"",
+	  "Tags": [
+        "Bauen",
+		"Wohnen",
+		"Miete",
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457686",
+      "Title": "Grundhafte Erneuerung der \"Löbstedter Straße\"",
+	  "Tags": [
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "457693",
+      "Title": "Grundhafte Erneuerung - Lutherstraße mit Riedstraße und Blumenstraße",
+	  "Tags": [
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung"
+      ]
+    },
+
+    {
+      "@Id": "466948",
+      "Title": "Verlängerung der Straßenbahn Himmelreich-Zwätzen",
+	  "Tags": [
+		"Mobilität",
+		"Verkehr",
+		"Wirtschaft",
+		"Arbeit"
+      ]
+    },
+
+    {
+      "@Id": "466959",
+      "Title": "Leitlinien Mobilität in Jena 2013",
+	  "Tags": [
+		"Mobilität",
+		"Verkehr",
+		"Stadtentwicklung",
+		"Stadtplanung",
+		"Umwelt",
+		"Energie"
+      ]
+    }
+  ]
+}

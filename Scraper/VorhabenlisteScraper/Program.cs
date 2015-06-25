@@ -29,6 +29,7 @@ using CsQuery;
 using Newtonsoft.Json.Linq;
 
 using org.GraphDefined.Vanaheimr.Illias;
+using System.Collections.Concurrent;
 
 #endregion
 
@@ -85,6 +86,7 @@ namespace de.offenes_jena.Vorhabenliste.Scraper
             var HTTPClient  = new HttpClient();
             var RegExpr     = new Regex(@"http://www.jena.de/de/([\d]+)");
             var URLSet      = new HashSet<String>();
+            var Vorhaben    = new ConcurrentDictionary<String, JObject>();
 
             foreach (Match match in RegExpr.Matches(HTTPClient.GetStringAsync(VorhabenlisteBrokenXMLURL).Result))
                 URLSet.Add(match.Groups[1].Value);
@@ -134,7 +136,6 @@ namespace de.offenes_jena.Vorhabenliste.Scraper
             #endregion
 
             Parallel.ForEach(URLSet, URLPart => {
-            //URLSet.ForEach(URLPart => {
 
                 #region Download and analyse every Vorhaben
 
@@ -223,25 +224,27 @@ namespace de.offenes_jena.Vorhabenliste.Scraper
                     // Should not happen!
                 }
 
-                lock (VorhabenArray)
-                {
+                Vorhaben.AddOrUpdate(URLPart,
+                                     new JObject(new JProperty("@Id", URLPart),
+                                                 new JProperty("Title",        Title),
+                                                 new JProperty("Description",  Description),
 
-                    VorhabenArray.Add(new JObject(new JProperty("@Id",          URLPart),
-                                                  new JProperty("Title",        Title),
-                                                  new JProperty("Description",  Description),
+                                                 InfoHash.Select(item => new JProperty(item.Key, new JArray(item.Value.Where(str => str.IsNotNullOrEmpty())))),
 
-                                                  InfoHash.Select(item => new JProperty(item.Key, new JArray(item.Value.Where(str => str.IsNotNullOrEmpty())))),
-
-                                                  new JProperty("Links",        new JArray(Links))
-                                                 ));
-
-                }
+                                                 new JProperty("Links",        new JArray(Links))
+                                                ),
+                                     (id, json) => json);
 
                 #endregion
 
             });
 
-            File.WriteAllText("VorhabenJena.json", JSON.ToString());
+            // Resultat sorieren, damit DIFFs besser funktionieren!
+            Vorhaben.
+                OrderBy(vorhaben => vorhaben.Key).
+                ForEach(vorhaben => VorhabenArray.Add(vorhaben.Value));
+
+            File.WriteAllText("VorhabenJena_" + DateTime.Now.ToString("yyyyMMdd") + ".json", JSON.ToString());
 
             Console.WriteLine("done!");
 

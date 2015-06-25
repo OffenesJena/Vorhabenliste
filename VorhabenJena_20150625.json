@@ -28,7 +28,7 @@
     },
     "License": "CC-BY-SA-4.0",
     "Scraping": {
-      "Timestamp": "2015-05-24T21:42:34.423Z",
+      "Timestamp": "2015-06-25T11:55:12.844Z",
       "SourceCodeURI": "https://github.com/OffenesJena/Vorhabenliste",
       "License": "Apache 2.0"
     }
@@ -1497,6 +1497,74 @@
       "Ist Bürgerbeteiligung vorgesehen": [
         "Ja.",
         "Im Februar 2015 fand die öffentliche Auftaktveranstaltung statt, weitere drei Veranstaltungen sind für 2015 noch geplant. Die genaue Ausgestaltung der Bürgerbeteiligung wird gemeinsam mit dem beratenden Büro und in Abhängigkeit vom Verlauf der Auftaktveranstaltung in einem iterativen Prozess entwickelt. Über einen Blog (siehe weiterführende Links) informiert die Stadt Jena regelmäßig über das Vorhaben."
+      ]
+    },
+    {
+      "@Id": "517524",
+      "Title": "Ernst-Abbe-Stadion",
+      "Description": "Kern des Projektes ist die Schaffung der planungsrechtlichen Voraussetzungen für den Umbau des Ernst-Abbe-Sportfeldes in eine DFL-taugliche Fußballarena. Zu den Planungen gehört auch die grundlegende Ordnung der verkehrlichen Infrastruktur im Umfeld. Eine besondere Herausforderung stellt die Lage des Plangebietes in einem amtlich festgesetzten Überschwemmungsgebiet dar.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Umbau des Ernst-Abbe-Sportfeldes in ein reines Fußballstadion (Beschlussvorlage Fraktionen 14/2411BV) vom 26.02.2014."
+      ],
+      "Links": [
+        {
+          "title": "Umbau Ernst-Abbe-Sportfeld - Beschlussvorlage 14/2411-BV",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo//vo0050.php?__kvonr=6055"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Fertigung des Entwurfes nach Vorliegen aller aus gegenwärtiger Sicht notwendigen Gutachten."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "Vorlage des Entwurfs- und Auslegungsbeschluss im September 2015. Anschließend öffentliche Bürgerinformationsveranstaltung, formelle Öffentlichkeitsbeteiligung und Beteiligung der Behörden und sonstigen Träger öffentlicher Belange."
+      ],
+      "Kosten soweit bezifferbar": [
+        "120.000 € etwa für Planungen und Gutachten [Stand Juni 2015]."
+      ],
+      "Betroffenes Gebiet": [
+        "Oberaue, Ortsteil Kernberge, in geringem Maße auch Ortsteil Wöllnitz."
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Stadtentwicklung / Stadtplanung\r\nUmweltschutz\r\nSport und Freizeit"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Mehrere Öffentlichkeitsveranstaltungen wurden bereits durchgeführt und sind noch geplant; formelle Bürgerbeteiligung; Einbeziehung der Ortsteilräte."
+      ]
+    },
+    {
+      "@Id": "517531",
+      "Title": "Stadtmitte",
+      "Description": "Wiederaufnahme des Prozesses zur Entwicklung der Stadtmitte Jenas.\r\n70 Jahre nach Kriegsende und 25 Jahre nach der friedlichen Revolution bildet ein Fünftel der Innenstadtfläche der zweitgrößten Stadt Thüringens noch immer eine frei geräumte Brache - ein Zustand, der in Verantwortung vor den hier Lebenden und Arbeitenden, aber auch vor dem Maßstab der Geschichte unhaltbar ist. Noch schwerer wiegen die städtebaulich-funktionalen Mängel, deren Behebung ansteht. Das Ergebnis der Bürgerbefragung führte zu einem einjährigen Überdenken – vorerst noch ohne greifbares Ergebnis.",
+      "Letzter Beschluss zum Vorhaben": [
+        "Beschlussvorlage 15/0345-BV „Wiederaufnahme des Prozesses zur Entwicklung des Eichplatzareals“."
+      ],
+      "Links": [
+        {
+          "title": "Wiederaufnahme Entwicklung Eichplatzareal - BV 15/0345-BV",
+          "url": "https://sessionnet.jena.de/sessionnet/buergerinfo/vo0050.php?__kvonr=6715"
+        }
+      ],
+      "Aktueller Bearbeitungsstand": [
+        "Derzeit findet die Auswahl eines in Mediation, Konfliktmanagement und Stadtplanungsprozessen erfahrenen externen Moderators, eines renommierten städtebaulich-orientierten Büros zur Bearbeitung eines Zielkonzeptes / Rahmenplans / Masterplans und die Aufbereitung und Bereitstellung vorhandener Grundlagen durch die Verwaltung (Nutzung von Gutachten und Vorarbeiten aus bisherigem Verfahren) statt.",
+        "Bis ca. Mitte Juli 2015 wird die Gewinnung von ca. 30 interessierten Bürgerinnen und Bürgern durch Anschreiben von ca. 400, nach statistischer Auswahl bestimmten, Bürgerinnen und Bürgern angestrebt. Diese sollen als Teil eines Gremiums aus Stadträten, Fachleuten, Verwaltung sowie Bürgerinnen und Bürgern in einem extern moderierten Prozess vorhandene Grundlagen und Bürgervorschläge aufnehmen, hinsichtlich möglicher Anforderungen prüfen und aufzeigen, welche Entwicklung als zukunftsfähig eingeschätzt wird."
+      ],
+      "Geplanter Zeitpunkt der Umsetzung / nächste Schritte": [
+        "ab September 2015"
+      ],
+      "Kosten soweit bezifferbar": [
+        "Kosten für externe Begleitung sind eingeplant, aber noch nicht bezifferbar."
+      ],
+      "Betroffenes Gebiet": [
+        "Jena-Zentrum"
+      ],
+      "Schwerpunktmäßig betroffene Themen": [
+        "Bauen / Wohnen\r\nKinder / Jugend / Familie\r\nStadtentwicklung / Stadtplanung\r\nVerkehr / Mobilität"
+      ],
+      "Ist Bürgerbeteiligung vorgesehen": [
+        "Ja.",
+        "Zur Formulierung der Planungsziele wird ein extern moderiertes Verfahren durchgeführt, begleitet durch ein Gremium aus Politik, Verwaltung und Bürgerschaft. Die Auswahl des geeigneten Instrumentes für die Beteiligung der Öffentlichkeit (Stadtgesellschaft sowie Kinder / Jugendliche) wird durch das Gremium und den Moderator erarbeitet.",
+        "Weiterhin soll eine Internetplattform zur Begleitung und Dokumentation des Prozesses und der Ergebnisse sowie für Kommentare (Hinweise, Anmerkungen etc.) eingerichtet werden. Im weiteren Prozess wird sichergestellt, dass alle Jenaer Bürgerinnen und Bürger Möglichkeiten der Mitwirkung haben."
       ]
     }
   ]
